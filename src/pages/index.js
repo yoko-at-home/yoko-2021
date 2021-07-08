@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Image from "next/image";
 
-import { Footer } from "../components/Footer";
 import { FireworksSection } from "../components/Fireworks";
+import { Footer } from "../components/Footer";
+import styles from "../styles/Home.module.css";
 
 const Home=()=> {
   return (
@@ -18,13 +18,10 @@ const Home=()=> {
         <h1 className={styles.title}>
           Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
-        <div className='flex flex-row max-w-screen-lg flex-wrap'>
-          <Image src='/pic01.jpg' width={300} height={200} />
-          <Image src='/pic06.jpg' width={300} height={200} />
-          <Image src='/pic05.jpg' width={300} height={200} />
-          <Image src='/pic01.jpg' width={300} height={200} />
-          <Image src='/pic06.jpg' width={300} height={200} />
-          <Image src='/pic05.jpg' width={300} height={200} />
+        <div className='flex flex-row flex-wrap max-w-screen-lg'>
+          <Image src='/pic01.jpg' alt="雨" width={300} height={200} />
+          <Image src='/pic06.jpg' alt="風" width={300} height={200} />
+          <Image src='/pic05.jpg' alt="雪" width={300} height={200} />
         </div>
         <p className={styles.description}>
           Get started by editing{" "}
@@ -61,7 +58,7 @@ const Home=()=> {
           </a>
         </div>
       </main>
-        <FireworksSection />
+      <FireworksSection />
       <Footer />
     </div>
   );

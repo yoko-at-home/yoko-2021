@@ -1,15 +1,16 @@
 export const Icons = () => {
   return (
-    <div className='mt-6 lg:mb-0 mb-6'>
+    <div className='mt-6 mb-6 lg:mb-0'>
       <a
         href='https://twitter.com/yokoiwasaki6'
         target='_blank'
         rel='noopener noreferrer'
       >
         <button
-          className='hover:bg-indigo-200 hover:text-white bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
+          className='justify-center items-center mr-2 w-10 h-10 font-normal text-blue-400 hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
+          {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
           <i className='fab fa-twitter-square'></i>
         </button>
       </a>
@@ -19,9 +20,10 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
-          className='hover:bg-indigo-200 hover:text-white bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
+          className='justify-center items-center mr-2 w-10 h-10 font-normal text-pink-400 hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
+          {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
           <i className='fab fa-linkedin'></i>
         </button>
       </a>
@@ -31,9 +33,10 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
-          className='hover:bg-indigo-200 hover:text-white bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
+          className='justify-center items-center mr-2 w-10 h-10 font-normal text-black hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
+          {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
           <i className='fab fa-github'></i>
         </button>
       </a>
@@ -43,9 +46,10 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
-          className='hover:bg-indigo-200 hover:text-white bg-white text-red-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
+          className='justify-center items-center mr-2 w-10 h-10 font-normal text-red-600 hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
+          {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
           <i className='fab fa-instagram-square'></i>
         </button>
       </a>

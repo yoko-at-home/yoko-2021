@@ -1,31 +1,35 @@
 import { Icons } from "./atom/Icon";
 
-function Copyright() {
+const Copyright = () => {
   return (
-    <div className='text-white opacity-60 mx-2 mb-3'>
+    <div className='mx-2 mb-3 text-white opacity-60'>
       {"Copyright © "}
       <a
         color='inherit'
         href='https://twitter.com/yokoiwasaki6'
         target='_blank'
-        rel='noopener'
+        rel='noopener noreferrer'
       >
         yoko
       </a>{" "}
       {new Date().getFullYear()}
     </div>
   );
-}
+};
 
-export const Footer = (props) => (
-  <footer
-    id='footer'
-    className='w-screen flex justify-center'
-    style={{ backgroundColor: "rgba(12, 12, 58)" }}
-  >
-    <div className='inner'>
-      <Icons />
-      <Copyright />
-    </div>
-  </footer>
-);
+export const Footer = () => {
+
+  return (
+      <div
+        id='footer'
+        className='flex justify-center w-screen'
+        style={{ backgroundColor: "rgba(12, 12, 58)" }}
+      >
+        <div className='p-1'>
+          <Icons />
+          <Copyright />
+        </div>
+  </div>
+    );
+;;
+};
