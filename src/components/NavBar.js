@@ -11,7 +11,7 @@ export const Navbar = () => {
     <>
       <nav className='flex fixed top-0 right-0 z-50 flex-wrap justify-between items-center py-3 px-2 w-full navbar-expand-lg'>
         <div className='container flex flex-wrap justify-between items-center px-4 mx-auto'>
-          <div className='flex  relative justify-between  w-full'>
+          <div className='flex relative justify-between w-full'>
             <Link href='/'>
               <a
                 className='inline-block py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap'
@@ -23,7 +23,7 @@ export const Navbar = () => {
               </a>
             </Link>
             <button
-              className='block py-1 px-3 text-xl leading-none bg-transparent lg:bg-opacity-0 rounded lg:rounded-none border border-transparent border-solid cursor-pointer outline-none focus:outline-none'
+              className='block py-1 px-3 text-xl leading-none bg-transparent rounded border border-transparent border-solid cursor-pointer outline-none focus:outline-none'
               type='button'
               onClick={handleNavBarOpen}
             >
@@ -35,13 +35,13 @@ export const Navbar = () => {
           </div>
           <div
             className={
-              "flex-grow items-center lg:bg-opacity-40 lg:shadow-none backdrop-opacity-60 backdrop-filter backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white" +
+              "flex-grow items-center lg:bg-opacity-40 lg:shadow-none backdrop-opacity-80 backdrop-filter backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white" +
               (isNavbarOpen ? " block" : " hidden")
             }
             id='example-navbar-warning'
             style={{ backgroundColor: "rgba(15, 10, 80, .6)" }}
           >
-            <ul className='flex flex-col lg:flex-row mx-auto lg:ml-auto list-none'>
+            <ul className='flex flex-col mx-auto lg:ml-auto list-none'>
               <li className='flex mx-auto'>
                 <Link href='/programming'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-gray-500 uppercase'>
