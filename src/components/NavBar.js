@@ -27,10 +27,13 @@ export const Navbar = () => {
               type='button'
               onClick={handleNavBarOpen}
             >
-              <i
+              {/* <i
                 className='text-blue-50 fas fa-bars'
                 style={{ textShadow: "0px 0px 25px rgba(125, 125, 125, 0.8)" }}
-              ></i>
+              ></i> */}
+              <span role='img' aria-label='sparkles'>
+                ✨
+              </span>
             </button>
           </div>
           <div
