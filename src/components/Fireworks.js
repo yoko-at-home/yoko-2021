@@ -22,4 +22,3 @@ export const FireworksSection = () => {
   );
 };
 
-export default Fireworks;
