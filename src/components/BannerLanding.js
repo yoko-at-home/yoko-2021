@@ -2,10 +2,10 @@ export const BannerLanding = (props) => {
   return (
     <section
       id='banner'
-      className='p-20 h-full text-xl text-yellow-100 bg-top bg-cover opacity-40'
+      className='p-20 h-full text-4xl text-yellow-100 bg-center bg-cover opacity-50'
       style={{
-        // backgroundColor: "#8d82c4",
-        backgroundImage: "url('/banner.jpg')",
+        backgroundColor: "#8d82c4",
+        backgroundImage: "url('/kota.jpg')",
       }}
     >
       <div className='block my-0 mx-auto opacity-100'>
