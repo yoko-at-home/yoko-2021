@@ -15,7 +15,7 @@ const Home=()=> {
         url={"https://yoko-2021.vercel.app"}
       />
       <Header />
-      <div className="mb-10 md:mb-32">
+      <div className="mb-32">
       <FireworksSection />
       </div>
       <Tiles />

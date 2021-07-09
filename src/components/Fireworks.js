@@ -21,7 +21,7 @@ export const FireworksSection = () => {
         <Fireworks options={options} style={style} />
       </div>
       <div className='absolute top-24 p-5 md:p-10 mx-12 md:mx-32 text-center text-white opacity-40'>
-        <h2 className='mb-8 lg:mb-14 text-lg md:text-3xl underline'>
+        <h2 className='mb-14 text-lg md:text-3xl underline'>
           初めましてyokoです
         </h2>
         <p className='mb-5 text-sm md:text-lg leading-7 lg:leading-10 text-left'>
