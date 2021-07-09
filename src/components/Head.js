@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 export const HeadPart = () => {
-  const image = "/banner.jpg"
+  const image = "https://yoko-2021.vercel.app/banner.jpg";
   return (
     <Head>
       <title>yoko | webで遊ぶ | プログラミングを学ぶ</title>
