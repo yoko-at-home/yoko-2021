@@ -52,6 +52,16 @@ export const Navbar = () => {
           >
             <ul className='flex flex-col mx-auto lg:ml-auto list-none'>
               <li className='flex mx-auto'>
+                <Link href='/'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-gray-500 uppercase'>
+                    {/* <i className='text-lg text-gray-400 fab fa-star leading-lg ' /> */}
+                    <span className='inline-block ml-2 text-yellow-100'>
+                      home
+                    </span>
+                  </a>
+                </Link>
+              </li>
+              <li className='flex mx-auto'>
                 <Link href='/programming'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-gray-500 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-star leading-lg ' /> */}
