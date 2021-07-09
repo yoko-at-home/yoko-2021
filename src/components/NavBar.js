@@ -17,7 +17,10 @@ export const Navbar = () => {
                 className='inline-block py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap'
                 href='#pablo'
               >
-                <span role='img' aria-label='sparkles'>
+                <span
+                  role='img'
+                  aria-label='sparkles'
+                >
                   ✨
                 </span>
               </a>
@@ -31,7 +34,10 @@ export const Navbar = () => {
                 className='text-blue-50 fas fa-bars'
                 style={{ textShadow: "0px 0px 25px rgba(125, 125, 125, 0.8)" }}
               ></i> */}
-              <span role='img' aria-label='sparkles'>
+              <span
+                role='img'
+                aria-label='sparkles'
+              >
                 ✨
               </span>
             </button>
