@@ -62,7 +62,7 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-center bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='Toeicかつて936点...' />
+                <Button2 name='TOEICかつて9...' />
               </div>
               <div className='mt-10 shadow-2xl '>
                 <Button2 name='Language' />
