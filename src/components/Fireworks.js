@@ -20,7 +20,7 @@ export const FireworksSection = () => {
         <Fireworks options={options} style={style} />
         <Fireworks options={options} style={style} />
       </div>
-      <div className='absolute top-24 p-5 md:p-10 mx-12 md:mx-32 text-center text-white opacity-70'>
+      <div className='absolute top-24 p-5 md:p-10 md:mx-12 lg:mx-32 text-center text-white opacity-70'>
         <h2 className='mb-14 text-lg md:text-3xl underline'>
           初めましてyokoです
         </h2>
