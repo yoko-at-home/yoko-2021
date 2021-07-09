@@ -346,7 +346,7 @@ const miscellaneous = () => {
             <Image
               width={700}
               height={500}
-              alt='イベントを盛り上げるために作るアプリは楽しい'
+              alt='一日2リットルのお水を飲みましょう'
               src={drinkwater}
               className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
             />
@@ -449,7 +449,7 @@ const miscellaneous = () => {
             <Image
               width={700}
               height={500}
-              alt='イベントを盛り上げるために作るアプリは楽しい'
+              alt='幹事決めアプリ'
               src={"/pic_who-next.jpg"}
               className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
             />
@@ -537,8 +537,110 @@ const miscellaneous = () => {
             <Image
               width={700}
               height={500}
-              alt='Ring the Bells'
+              alt='チャットアプリ'
               src={"/pic_misc03.jpg"}
+              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+            />
+          </div>
+        </div>
+      </section>
+      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
+        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+          {/* <!-- Image --> */}
+          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+            <Image
+              width={700}
+              height={500}
+              alt='チャットアプリ'
+              src={"/pic01.jpg"}
+              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+            />
+          </div>
+
+          {/* <!-- Content --> */}
+          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
+            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+              チャットアプリ
+            </h2>
+            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+              LT会イベントでヤジを飛ばしたり、質問したり。
+            </p>
+            <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                イベントごとに模様替え。
+              </li>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                みんなのコメントが愛しい。
+              </li>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                少しづつ進化。
+              </li>
+            </ul>
+            <a
+              href='https://qin-lt.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button name={"アプリを覗く"} />
+            </a>
+          </div>
+          {/* <!-- End  Content --> */}
+        </div>
+        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+          {/* <!-- Content --> */}
+          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
+            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+              お題投稿アプリ
+            </h2>
+            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+              IT KINGDOM イベントのために作ったお題投稿アプリ。
+            </p>
+            <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                Firebaseへの登録がわからなくて、現役エンジニアに実装してもらいました。
+              </li>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                DB設計の大切さを痛感。
+              </li>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                エンジニア脳じゃないので、独創的なアプリ。
+              </li>
+            </ul>
+            <a
+              href='https://qin-bulletin-board.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button name={"アプリを覗く"} />
+            </a>
+          </div>
+          {/* <!-- End  Content --> */}
+
+          {/* <!-- Image --> */}
+          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+            <Image
+              width={700}
+              height={500}
+              alt='チャットアプリ'
+              src={"/pic06.jpg"}
               className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
             />
           </div>
