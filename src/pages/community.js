@@ -31,16 +31,15 @@ const community = () => {
         <div className='flex flex-col lg:order-2 justify-between'>
           <div className='p-5 lg:px-10'>
             <h3 className='mb-5 text-lg md:text-2xl underline'>
-              {/* 学校に行かないと学べないと思っていた昭和なわたし */}
+              Web開発の勉強をしている40歳以上向けオンラインコミュニティ
             </h3>
             <p className='lg:w-min min-w-full text-sm lg:text-base'>
-              Web開発の勉強をしている40歳以上の方が、情報交換したり、助けあったり、交流を深めたりするためのオンラインコミュニティに設立当初から参加しています。
-              現在は管理人代理も勤めています。メンバーのバックグランドは、現役エンジニア、専業主婦、働く主婦、元IBMプログラマー、元引きこもり(自称)、シェフ、海外からの参戦者とさまざまです。
+              設立当初から参加しています。メンバーのバックグランドは、現役エンジニア、専業主婦、働く主婦、元IBMプログラマー、元引きこもり(自称)、シェフ、海外からの参戦者とさまざまです。
               学習会も盛んで、
               <a href='https://over40webclub.connpass.com/'>
                 Connpassでの学習会
               </a>
-              も過去4回開催しています。全ての会で司会を担当しました。{" "}
+              も過去4回開催しています。全ての会で司会を担当しました。
             </p>
           </div>
         </div>
@@ -58,17 +57,21 @@ const community = () => {
               alt={"IT KINGDOM"}
             />
           </a>
-          <div className='my-10 text-center'></div>
+          <div className='text-center'></div>
         </div>
         <div className='lg:order-3 p-5 md:px-10'>
           <h3 className='pb-3 text-lg md:text-2xl underline'>
-            {/* React学びませんか？ */}
+            素敵な住処をありがとう
           </h3>
           <p className='lg:w-min min-w-full text-sm lg:text-base '>
-            こちらのコミュニティにも設立当初から参加させていたただいています。
-            Over 40 Web
-            Clubとは対照的に若い方々が中心になって活動していますが、今ではたくさんの素晴らしい友人ができました。
+            Reactのレッスンが終わり、これからどのように学習を進めていけばいいか考えていた時に、このコミュニティができました。設立当初から参加させていたただいています。
+            若い方々が中心になって活動していますが、今ではたくさんの素晴らしい友人ができました。
             第一回Lightning
+           
+           
+           
+           
+           
             Talk会の司会という大役をいただき、第二回では登壇も果たしました。
             <br />
             このLT会のために作成した
