@@ -12,9 +12,9 @@ const language = () => {
         title='産業翻訳者やってました'
         description='翻訳など過去の職歴については、フッターのリンクから、LinkedInをご参照ください。'
       />
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
+      <div className='grid grid-cols-1 gap-5'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
-        <div className='flex flex-col lg:order-1 justify-center text-center'>
+        <div className='flex flex-col justify-center text-center'>
           <div className='m-20'>
             <ButtonYellow name={"clubhouseやってます"} />
           </div>
@@ -35,7 +35,7 @@ const language = () => {
           </a>
         </div>
 
-        <div className='flex flex-col lg:order-2 justify-between text-center'>
+        <div className='flex flex-col justify-between text-center'>
           <div className='p-5 lg:px-10'>
             <h3 className='mb-5 text-lg md:text-2xl underline'>
               プログラミングの英語ドキュメンテーションやブログを音読
