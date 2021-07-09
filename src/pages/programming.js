@@ -5,9 +5,9 @@ import { Layout } from "../components/Layout";
 const programming = () => {
   return (
     <Layout>
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
-        <div className='flex flex-col lg:order-1 justify-center'>
+        <div className='flex flex-col lg:order-1 justify-center text-center'>
           【はじめてのWebサイト】
           <ImageShrink
             width={700}
@@ -44,7 +44,7 @@ const programming = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col lg:order-4 justify-center'>
+        <div className='flex flex-col lg:order-4 justify-center text-center'>
           【はじめてのWebサイトは、ご馳走になりました】
           <a
             href='https://izumibashi.com/kakou/'
@@ -84,7 +84,7 @@ const programming = () => {
             というコミュニティができたことを知りました。出会いとは不思議です。
           </p>
         </div>
-        <div className='flex flex-col lg:order-5 justify-center'>
+        <div className='flex flex-col lg:order-5 justify-center text-center'>
           【はじめてのWebサイト模写】
           <ImageShrink
             width={700}
@@ -123,7 +123,7 @@ const programming = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col lg:order-8 justify-center'>
+        <div className='flex flex-col lg:order-8 justify-center text-center'>
           【山浦先生は熱かった】
           <a
             href='https://dokugaku-engineer.com/'
