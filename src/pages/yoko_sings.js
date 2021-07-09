@@ -1,4 +1,3 @@
-import {Button2} from "../components/atom/Button"
 import { ImageShrink } from "../components/atom/ImageShrink";
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
@@ -32,15 +31,6 @@ const yokosings = () => {
               Gatsby.js x Netlify
             </span>
           </div>
-          {/* <div className='mt-5'>
-            <a
-              href='https://polepole.netlify.app'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <Button2 name={"ポレポーレWebサイトへGo!"} />
-            </a>
-          </div> */}
         </div>
 
         <div className='flex flex-col justify-between'>
