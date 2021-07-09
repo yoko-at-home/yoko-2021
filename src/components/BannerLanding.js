@@ -10,7 +10,7 @@ export const BannerLanding = (props) => {
     >
       <div className='block my-0 mx-auto opacity-100'>
         <h1 className='mb-5 text-3xl'>{props.title}</h1>
-        <p className='animate-pulse '>
+        <p className='text-2xl animate-pulse'>
           {props.description}
           <br />
         </p>
