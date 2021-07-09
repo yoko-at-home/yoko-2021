@@ -3,7 +3,7 @@ export const Header = () => {
     <main>
       <div className='flex relative justify-center content-center items-center pt-16 pb-32 h-1/4'>
         <div
-          className='absolute top-0 w-full h-full bg-center bg-cover'
+          className='absolute top-0 w-full h-full bg-top bg-cover'
           style={{
             backgroundImage: "url('/banner.jpg')",
           }}
@@ -18,7 +18,7 @@ export const Header = () => {
             <div className='px-4 mr-auto ml-auto w-full lg:w-6/12 text-center'>
               <div className='pr-12'>
                 <h1
-                  className='text-3xl md:text-5xl font-semibold text-white'
+                  className='text-3xl md:text-5xl font-semibold text-white animate-pulse'
                   style={{
                     textShadow: "0px 0px 25px rgba(125, 125, 125, 0.8)",
                   }}
