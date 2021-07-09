@@ -22,13 +22,19 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='琥太郎カレンダーとアナログ時計'
-              src={clock}
-              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
-            />
+            <a
+              href='https://yoko-stage.s3.ap-northeast-1.amazonaws.com/MyCalendar/index.html'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='琥太郎カレンダーとアナログ時計'
+                src={clock}
+                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+              />
+            </a>
           </div>
 
           {/* <!-- Content --> */}
@@ -111,13 +117,19 @@ const miscellaneous = () => {
 
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='琥太郎タイピングゲーム'
-              src={typing}
-              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
-            />
+            <a
+              href='https://yoko-stage.s3.ap-northeast-1.amazonaws.com/MyTypingGame/index.html'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='琥太郎タイピングゲーム'
+                src={typing}
+                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -215,13 +227,19 @@ const miscellaneous = () => {
 
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='笑ってはいけない英語学習'
-              src={joke}
-              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
-            />
+            <a
+              href='https://kotaro-club-meow02.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='笑ってはいけない英語学習'
+                src={joke}
+                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -230,13 +248,20 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='サウンドボード'
-              src={sound}
-              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
-            />
+            <a
+              className='ml-5'
+              href='https://kota-sound-board.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='サウンドボード'
+                src={sound}
+                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+              />
+            </a>
           </div>
 
           {/* <!-- Content --> */}
@@ -328,13 +353,19 @@ const miscellaneous = () => {
 
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='Neumorphism のキーコード取得アプリ'
-              src={keyevent}
-              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
-            />
+            <a
+              href='https://kotaro-club-meow03.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='Neumorphism のキーコード取得アプリ'
+                src={keyevent}
+                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -343,13 +374,19 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='一日2リットルのお水を飲みましょう'
-              src={drinkwater}
-              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
-            />
+            <a
+              href='https://kotaro-club-meow07.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='一日2リットルのお水を飲みましょう'
+                src={drinkwater}
+                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+              />
+            </a>
           </div>
 
           {/* <!-- Content --> */}
@@ -432,13 +469,19 @@ const miscellaneous = () => {
 
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='映画検索アプリ'
-              src={movie}
-              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
-            />
+            <a
+              href='https://kotaro-club-meow06.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='映画検索アプリ'
+                src={movie}
+                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -446,13 +489,19 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='幹事決めアプリ'
-              src={"/pic_who-next.jpg"}
-              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
-            />
+            <a
+              href='https://qin-who-next.netlify.app'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='幹事決めアプリ'
+                src={"/pic_who-next.jpg"}
+                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+              />
+            </a>
           </div>
 
           {/* <!-- Content --> */}
@@ -484,7 +533,7 @@ const miscellaneous = () => {
               </li>
             </ul>
             <a
-              href='/static/images/pic_who-next.jpg'
+              href='https://qin-who-next.netlify.app'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -534,13 +583,19 @@ const miscellaneous = () => {
 
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='チャットアプリ'
-              src={"/pic_misc03.jpg"}
-              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
-            />
+            <a
+              href='https://ring-the-bells.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='Ring the Bells'
+                src={"/pic_misc03.jpg"}
+                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -548,13 +603,19 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='チャットアプリ'
-              src={"/pic01.jpg"}
-              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
-            />
+            <a
+              href='https://qin-lt.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='チャットアプリ'
+                src={"/pic01.jpg"}
+                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+              />
+            </a>
           </div>
 
           {/* <!-- Content --> */}
@@ -636,13 +697,19 @@ const miscellaneous = () => {
 
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='チャットアプリ'
-              src={"/pic06.jpg"}
-              className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
-            />
+            <a
+              href='https://qin-bulletin-board.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='チャットアプリ'
+                src={"/pic06.jpg"}
+                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+              />
+            </a>
           </div>
         </div>
       </section>

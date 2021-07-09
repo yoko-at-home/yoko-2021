@@ -90,7 +90,7 @@ const websites = () => {
 
             <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3 bg-top bg-cover'>
               <a
-                href='#_'
+                href='https://s3.ap-northeast-1.amazonaws.com/zama-ouen.com/index.html'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='block'
@@ -127,7 +127,7 @@ const websites = () => {
 
             <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
               <a
-                href='#_'
+                href='https://chocolate-react.netlify.app/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='block'

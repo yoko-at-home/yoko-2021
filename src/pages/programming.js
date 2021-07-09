@@ -9,14 +9,19 @@ const programming = () => {
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className='flex flex-col lg:order-1 justify-center text-center'>
           【はじめてのWebサイト】
-          <ImageShrink
-            width={700}
-            height={500}
+          <a
             href={"https://sakuraipiano.com"}
-            src={"/pic_piano01.jpg"}
-            alt={"櫻井ピアノスクール"}
-            desc={"description"}
-          />
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <ImageShrink
+              width={700}
+              height={500}
+              src={"/pic_piano01.jpg"}
+              alt={"櫻井ピアノスクール"}
+              desc={"description"}
+            />
+          </a>
           <div className='mt-6 text-center'>
             <a
               href={"https://sakuraipiano.com"}
@@ -86,14 +91,19 @@ const programming = () => {
         </div>
         <div className='flex flex-col lg:order-5 justify-center text-center'>
           【はじめてのWebサイト模写】
-          <ImageShrink
-            width={700}
-            height={500}
+          <a
             href={"https://mercari-yoko-2020.netlify.app/"}
-            src={"/pic_mercari.jpg"}
-            alt={"メルカリクローン"}
-            desc={"description"}
-          />
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <ImageShrink
+              width={700}
+              height={500}
+              src={"/pic_mercari.jpg"}
+              alt={"メルカリクローン"}
+              desc={"description"}
+            />
+          </a>
           <div className='mt-6 text-center'>
             <a
               href={"https://mercari-yoko-2020.netlify.app/"}
