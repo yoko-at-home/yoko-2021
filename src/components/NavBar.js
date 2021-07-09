@@ -14,7 +14,7 @@ export const Navbar = () => {
           <div className='flex relative justify-between w-full'>
             <Link href='/'>
               <a
-                className='inline-block py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap'
+                className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
                 href='#pablo'
               >
                 <span role='img' aria-label='sparkles'>
@@ -44,7 +44,7 @@ export const Navbar = () => {
           </div>
           <div
             className={
-              "flex-grow items-center lg:bg-opacity-40 lg:shadow-none backdrop-opacity-80 backdrop-filter backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white" +
+              "flex-grow items-center lg:bg-opacity-40 lg:shadow-none backdrop-opacity-80 backdrop-filter backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white hover:text-yellow-400" +
               (isNavbarOpen ? " block" : " hidden")
             }
             id='example-navbar-warning'
@@ -53,9 +53,9 @@ export const Navbar = () => {
             <ul className='flex flex-col mx-auto lg:ml-auto list-none'>
               <li className='flex mx-auto'>
                 <Link href='/'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-star leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>
                       home
                     </span>
                   </a>
@@ -63,9 +63,9 @@ export const Navbar = () => {
               </li>
               <li className='flex mx-auto'>
                 <Link href='/programming'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-star leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>
                       プログラミング
                     </span>
                   </a>
@@ -73,19 +73,17 @@ export const Navbar = () => {
               </li>
               <li className='flex mx-auto'>
                 <Link href='/websites'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
-                      Webサイト
-                    </span>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>Webサイト</span>
                   </a>
                 </Link>
               </li>
               <li className='flex mx-auto'>
                 <Link href='/community'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>
                       ２つのコミュニティ
                     </span>
                   </a>
@@ -93,31 +91,25 @@ export const Navbar = () => {
               </li>
               <li className='flex mx-auto'>
                 <Link href='/language'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
-                      語学
-                    </span>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>語学</span>
                   </a>
                 </Link>
               </li>
               <li className='flex mx-auto'>
                 <Link href='/yoko_sings'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
-                      歌
-                    </span>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>歌</span>
                   </a>
                 </Link>
               </li>
               <li className='flex mx-auto'>
                 <Link href='/miscellaneous'>
-                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 hover:text-gray-500 uppercase'>
+                  <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='inline-block ml-2 text-yellow-100'>
-                      いろいろ
-                    </span>
+                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>いろいろ</span>
                   </a>
                 </Link>
               </li>
