@@ -160,7 +160,7 @@ const miscellaneous = () => {
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
-                心が暇なら死んだ方がマシ（自分...
+                心が暇なら死んだ方がマシ...
               </li>
             </ul>
             <a
