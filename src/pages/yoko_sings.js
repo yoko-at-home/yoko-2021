@@ -1,3 +1,4 @@
+import {Button2} from "../components/atom/Button"
 import { ImageShrink } from "../components/atom/ImageShrink";
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
@@ -6,11 +7,8 @@ const yokosings = () => {
   return (
     <Layout>
       <BannerLanding
-     
-          title='歌を忘れたyoko、歌を歌う'
-  
-             description='住まう町に、友を得る'
-     
+        title='歌を忘れたyoko、歌を歌う'
+        description='住まう町に、友を得る'
       />
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
@@ -30,6 +28,9 @@ const yokosings = () => {
               desc={"ポレポーレ"}
             />
           </a>
+          <div className="mt-5">
+            <Button2 name={"ポレポーレWebサイトへGo!"} />
+          </div>
         </div>
 
         <div className='flex flex-col lg:order-2 justify-between'>
@@ -60,8 +61,18 @@ const yokosings = () => {
               frameBorder='0'
               allowFullScreen
             />
+            <div>
+              <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
+                iMovie
+              </span>
+            </div>
           </div>
-          <p>さあ、御伽の国へ一っ飛び✨</p>
+          <p>
+            さあ、御伽の国へ一っ飛び
+            <span role='img' aria-label='sparkles'>
+              ✨
+            </span>
+          </p>
           <ImageShrink
             width={700}
             height={500}
@@ -69,6 +80,17 @@ const yokosings = () => {
             alt={"ポレポーレ"}
             desc={"ポレポーレ"}
           />
+          <div>
+            <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-yellow-400 rounded-full'>
+              Illustrator
+            </span>
+          </div>
+          <p>
+            イラストレーター使ってみました
+            <span role='img' aria-label='sparkles'>
+              ✨
+            </span>
+          </p>
         </div>
       </div>
     </Layout>
