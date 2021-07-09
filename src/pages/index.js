@@ -2,10 +2,11 @@ import { FireworksSection } from "../components/Fireworks";
 import { HeadPart } from "../components/Head";
 import { Header } from "../components/Header";
 import { Layout } from "../components/Layout";
+import { Tiles } from "../components/Tiles";
 
 const Home=()=> {
   return (
-      <Layout>
+    <Layout>
       <HeadPart
         title={"yoko | frontend engineer"}
         description={"yoko | frontend engineer"}
@@ -14,6 +15,7 @@ const Home=()=> {
         url={"https://yoko-2021.vercel.app"}
       />
       <Header />
+      <Tiles />
       <FireworksSection />
     </Layout>
   );
