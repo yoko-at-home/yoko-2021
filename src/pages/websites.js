@@ -159,7 +159,7 @@ const websites = () => {
                 >
                   ショコラピアノ教室
                 </a>{" "}
-                制作：<span className='mx-1'>November, 2020</span>
+                制作：<span className='mx-1'>November 2020</span>
               </p>
             </div>
 
@@ -201,7 +201,7 @@ const websites = () => {
                 >
                   Cattery Canon(仮)
                 </a>{" "}
-                制作：<span className='mx-1'>June, 2021</span>
+                制作：<span className='mx-1'>June 2021</span>
               </p>
             </div>
 
