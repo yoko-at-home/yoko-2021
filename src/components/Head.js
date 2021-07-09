@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 export const HeadPart = () => {
-  const image = "/https://yoko-2021.vercel.app/ogp.jpg";
-  const url = "/https://yoko-2021.vercel.app/";
+  const image = "https://yoko-2021.vercel.app/ogp.jpg";
+  const url = "https://yoko-2021.vercel.app/";
   return (
     <Head>
       <title>yoko | webで遊ぶ | プログラミングを学ぶ</title>
