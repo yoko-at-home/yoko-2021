@@ -10,9 +10,9 @@ const yokosings = () => {
         title='歌を忘れたyoko、歌を歌う'
         description='住まう町に、友を得る'
       />
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
+      <div className='grid grid-cols-1 gap-5'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
-        <div className='flex flex-col lg:order-1 justify-start text-center'>
+        <div className='flex flex-col justify-start text-center'>
           <h2 className='mt-20 mb-10 text-3xl'>【女性合唱団ポレポーレ】</h2>
           <a
             href='https://polepole.netlify.app'
@@ -28,17 +28,17 @@ const yokosings = () => {
               desc={"ポレポーレ"}
             />
           </a>
-          <div className="mt-5">
+          <div className='mt-5'>
             <Button2 name={"ポレポーレWebサイトへGo!"} />
           </div>
         </div>
 
-        <div className='flex flex-col lg:order-2 justify-between'>
+        <div className='flex flex-col justify-between'>
           <div className='p-5 lg:px-10'>
             <h3 className='mb-5 text-lg md:text-2xl underline'>
               {/* 学校に行かないと学べないと思っていた昭和なわたし */}
             </h3>
-            <p className='lg:w-min min-w-full text-sm lg:text-base'>
+            <p className='lg:w-min min-w-full text-sm lg:text-base leading-7'>
               なぜか「設立当初から」のキーワードと縁のある今日この頃。若かりし頃は歌を歌うのが好きでしたが、その機会はすっかり失われておりました。10年越しに声をかけてくださっていた友人の誘いに応じ本当に久しぶりに、歌を歌っています。
               長い歴史のある合唱団ですが、コロナで仕切り直しとなり、今年第一回演奏会を開催すべく、猛練習中です。
               <br />
@@ -51,8 +51,8 @@ const yokosings = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col lg:order-4 justify-center text-center'>
-          <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <div className='flex flex-col justify-between text-center'>
+          <div className="my-2.5 md:mx-10 lg:mx-20 text-center">
             <iframe
               title='ポレポーレ第一回演奏会ご案内'
               width='100%'
@@ -61,13 +61,13 @@ const yokosings = () => {
               frameBorder='0'
               allowFullScreen
             />
-            <div>
+            <div className="my-2.5">
               <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
                 iMovie
               </span>
             </div>
           </div>
-          <p>
+          <p className="mb-5">
             さあ、御伽の国へ一っ飛び
             <span role='img' aria-label='sparkles'>
               ✨
@@ -85,12 +85,6 @@ const yokosings = () => {
               Illustrator
             </span>
           </div>
-          <p>
-            イラストレーター使ってみました
-            <span role='img' aria-label='sparkles'>
-              ✨
-            </span>
-          </p>
         </div>
       </div>
     </Layout>
