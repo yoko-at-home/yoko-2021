@@ -7,7 +7,7 @@ import { Layout } from "../components/Layout";
 const community = () => {
   return (
     <Layout>
-      <BannerLanding title='2つのコミュニティ' description='友を得る' />
+      <BannerLanding title='2つのコミュニティ' description='学びの友を得る' />
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className='flex flex-col lg:order-1 justify-start text-center'>
