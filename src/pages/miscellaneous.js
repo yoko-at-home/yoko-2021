@@ -461,7 +461,7 @@ const miscellaneous = () => {
               イベントを盛り上げるために作るアプリは楽しい
             </h2>
             <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
-              漢字をランダムに選出。
+              幹事をランダムに選出。
             </p>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
