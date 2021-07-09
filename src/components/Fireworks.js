@@ -9,14 +9,15 @@ const style = {
   // top: 0,
   // display: "absolute",
   width: "100vw",
-  height: "30vh",
+  height: "25vh",
   background: "rgb(12, 12, 58)",
 };
 
 export const FireworksSection = () => {
   return (
     <div className='relative'>
-      <div className=''>
+      <div>
+        <Fireworks options={options} style={style} />
         <Fireworks options={options} style={style} />
         <Fireworks options={options} style={style} />
       </div>
