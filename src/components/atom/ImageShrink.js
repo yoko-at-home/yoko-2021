@@ -5,7 +5,7 @@ export const ImageShrink = (src, alt, href) => {
     <div className='relative'>
       <div className='absolute top-5 left-5 z-50'>
         <span role='img' aria-label='sparkles'>
-          ✨
+          {/* ✨ */}
         </span>
       </div>
       <Image
