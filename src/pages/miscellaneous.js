@@ -37,26 +37,26 @@ const miscellaneous = () => {
               琥太郎カレンダーとアナログ時計
             </h2>
             <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
-              JavaScriptの学習を通して、わかったのは
+              Progate、ドットインストールそのままやってもつまらない。デザインを変えてみる楽しさに目覚める。
             </p>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
+                給付金でMacを購入。
+              </li>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
+                琥太郎くんをみてたら、だいたい幸せ。
+              </li>
+              <li className='box-border relative py-1 pl-0 text-left border-solid'>
+                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
+                  <span className='text-sm font-bold'>✓</span>
+                </span>{" "}
                 JavaScript、難しい。
-              </li>
-              <li className='box-border relative py-1 pl-0 text-left border-solid'>
-                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
-                  <span className='text-sm font-bold'>✓</span>
-                </span>{" "}
-                ライブラリーには、敵わない。
-              </li>
-              <li className='box-border relative py-1 pl-0 text-left border-solid'>
-                <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
-                  <span className='text-sm font-bold'>✓</span>
-                </span>{" "}
-                現実と折り合いをつけるのは、大切。
               </li>
             </ul>
             <a
@@ -96,7 +96,7 @@ const miscellaneous = () => {
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
-                長いURLただでは変更できない💦
+                長いURL、使いえない💦
               </li>
             </ul>
             <a
@@ -267,13 +267,23 @@ const miscellaneous = () => {
                 こんな使い方する人、ほとんどいない（需要なくても気にしない
               </li>
             </ul>
-            <a
-              href='https://kota-sound-board.netlify.app/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <Button name={"アプリを覗く"} />
-            </a>
+            <div className='flex flex-row justify-between md:justify-items-start w-full'>
+              <a
+                className="ml-5"
+                href='https://kota-sound-board.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Button name={"アプリを覗く"} />
+              </a>
+              <a
+                href='https://qin-lt-sounds.netlify.app//'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Button name={"司会原稿を覗く"} />
+              </a>
+            </div>
           </div>
           {/* <!-- End  Content --> */}
         </div>
@@ -432,7 +442,6 @@ const miscellaneous = () => {
           </div>
         </div>
       </section>
-
     </Layout>
   );
 };
