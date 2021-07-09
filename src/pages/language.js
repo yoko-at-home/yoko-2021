@@ -19,7 +19,7 @@ const language = () => {
             <ButtonYellow name={"clubhouseやってます"} />
           </div>
           <a
-            href='https://polepole.netlify.app'
+            href='https://apps.apple.com/jp/app/clubhouse-drop-in-audio-chat/id1503133294'
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block mx-auto w-1/4 text-center rounded-full border-8 border-yellow-300 border-dotted'
@@ -65,13 +65,13 @@ const language = () => {
             desc={"richmond, uk"}
           />
         </div>
-          <div className='mt-5 text-center'>
-            <p>
-              <span role='img' aria-label='sparkles'>
-                ✨
-              </span>
-            </p>
-          </div>
+        <div className='mt-5 text-center'>
+          <p>
+            <span role='img' aria-label='sparkles'>
+              ✨
+            </span>
+          </p>
+        </div>
       </div>
     </Layout>
   );

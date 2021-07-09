@@ -22,15 +22,25 @@ const yokosings = () => {
             <ImageShrink
               width={700}
               height={500}
-              href={"https://polepole.netlify.app"}
               src={"/pic05.jpg"}
               alt={"ポレポーレ"}
               desc={"ポレポーレ"}
             />
           </a>
-          <div className='mt-5'>
-            <Button2 name={"ポレポーレWebサイトへGo!"} />
+          <div className='my-2.5'>
+            <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-green-400 rounded-full'>
+              Gatsby.js x Netlify
+            </span>
           </div>
+          {/* <div className='mt-5'>
+            <a
+              href='https://polepole.netlify.app'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button2 name={"ポレポーレWebサイトへGo!"} />
+            </a>
+          </div> */}
         </div>
 
         <div className='flex flex-col justify-between'>
@@ -52,7 +62,7 @@ const yokosings = () => {
           </div>
         </div>
         <div className='flex flex-col justify-between text-center'>
-          <div className="my-2.5 md:mx-10 lg:mx-20 text-center">
+          <div className='my-2.5 md:mx-10 lg:mx-20 text-center'>
             <iframe
               title='ポレポーレ第一回演奏会ご案内'
               width='100%'
@@ -61,13 +71,13 @@ const yokosings = () => {
               frameBorder='0'
               allowFullScreen
             />
-            <div className="my-2.5">
+            <div className='my-2.5'>
               <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
                 iMovie
               </span>
             </div>
           </div>
-          <p className="mb-5">
+          <p className='mb-5'>
             さあ、御伽の国へ一っ飛び
             <span role='img' aria-label='sparkles'>
               ✨
