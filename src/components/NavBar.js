@@ -55,7 +55,7 @@ export const Navbar = () => {
                 <Link href='/'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-star leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
                       home
                     </span>
                   </a>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                 <Link href='/programming'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-star leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
                       プログラミング
                     </span>
                   </a>
@@ -75,7 +75,21 @@ export const Navbar = () => {
                 <Link href='/websites'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>Webサイト</span>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
+                      
+                      
+                      
+                      
+                      
+                      
+                      Webサイト
+                    
+                    
+                    
+                    
+                    
+                    
+                    </span>
                   </a>
                 </Link>
               </li>
@@ -83,7 +97,7 @@ export const Navbar = () => {
                 <Link href='/community'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
                       ２つのコミュニティ
                     </span>
                   </a>
@@ -93,7 +107,21 @@ export const Navbar = () => {
                 <Link href='/language'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>語学</span>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
+                      
+                      
+                      
+                      
+                      
+                      
+                      語学
+                    
+                    
+                    
+                    
+                    
+                    
+                    </span>
                   </a>
                 </Link>
               </li>
@@ -101,7 +129,21 @@ export const Navbar = () => {
                 <Link href='/yoko_sings'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>歌</span>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
+                      
+                      
+                      
+                      
+                      
+                      
+                      歌
+                    
+                    
+                    
+                    
+                    
+                    
+                    </span>
                   </a>
                 </Link>
               </li>
@@ -109,7 +151,21 @@ export const Navbar = () => {
                 <Link href='/miscellaneous'>
                   <a className='flex items-center py-4 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     {/* <i className='text-lg text-gray-400 fab fa-facebook leading-lg ' /> */}
-                    <span className='mx-auto ml-2 w-96 text-center text-yellow-100'>いろいろ</span>
+                    <span className='mx-auto ml-2 md:w-96 text-center text-yellow-100'>
+                      
+                      
+                      
+                      
+                      
+                      
+                      いろいろ
+                    
+                    
+                    
+                    
+                    
+                    
+                    </span>
                   </a>
                 </Link>
               </li>
