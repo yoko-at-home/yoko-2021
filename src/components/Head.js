@@ -20,7 +20,8 @@ export const HeadPart = () => {
         name='twitter:card'
         content='2020年から2021年の活動をまとめました'
       />
-      <meta name='twitter:site' content='@yokoiwasaki8' />
+      <meta name='twitter:card' content='summary_large_image'></meta>
+      <meta name='twitter:site' content='@yokoiwasaki6' />
       <meta name='twitter:url' content={image} />
       <meta name='twitter:title' content='yoko Webで遊ぶ' />
       <meta
