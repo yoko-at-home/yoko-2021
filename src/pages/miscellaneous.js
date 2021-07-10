@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "../components/atom/Button";
 import { BannerLanding } from "../components/BannerLanding";
@@ -713,6 +714,20 @@ const miscellaneous = () => {
           </div>
         </div>
       </section>
+      <div className='mt-5 text-center'>
+        <p>
+          <Link href='/'>
+            <a
+              className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
+              href='#pablo'
+            >
+              <span role='img' aria-label='sparkles'>
+                ✨
+              </span>
+            </a>
+          </Link>
+        </p>
+      </div>
     </Layout>
   );
 };

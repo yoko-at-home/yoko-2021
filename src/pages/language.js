@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { ButtonYellow } from "../components/atom/Button";
 import { ImageShrink } from "../components/atom/ImageShrink";
@@ -67,9 +68,16 @@ const language = () => {
         </div>
         <div className='mt-5 text-center'>
           <p>
-            <span role='img' aria-label='sparkles'>
-              ✨
-            </span>
+            <Link href='/'>
+              <a
+                className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
+                href='#pablo'
+              >
+                <span role='img' aria-label='sparkles'>
+                  ✨
+                </span>
+              </a>
+            </Link>
           </p>
         </div>
       </div>

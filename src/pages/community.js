@@ -36,7 +36,10 @@ const community = () => {
             <p className='lg:w-min min-w-full text-sm lg:text-base'>
               設立当初から参加しています。メンバーのバックグランドは、現役エンジニア、専業主婦、働く主婦、元IBMプログラマー、元引きこもり(自称)、シェフ、海外からの参戦者とさまざまです。
               学習会も盛んで、
-              <a className="hover:text-blue-400" href='https://over40webclub.connpass.com/'>
+              <a
+                className='hover:text-blue-400'
+                href='https://over40webclub.connpass.com/'
+              >
                 Connpassでの学習会
               </a>
               も過去4回開催しています。全ての会で司会を担当しました。
@@ -67,11 +70,6 @@ const community = () => {
             Reactのレッスンが終わり、これからどのように学習を進めていけばいいか考えていた時に、このコミュニティができました。設立当初から参加させていたただいています。
             若い方々が中心になって活動していますが、今ではたくさんの素晴らしい友人ができました。
             第一回Lightning
-
-
-
-
-
             Talk会の司会という大役をいただき、第二回では登壇も果たしました。
             <br />
             このLT会のために作成した
@@ -81,6 +79,20 @@ const community = () => {
             に残されたメッセージが、今では私の宝物となっています(LT会毎にCSSを当て直し、模様替えしています)。こちらのコミュニティも大変活発で、朝活や夜活はもちろん、現役エンジニアを交えてプロダクト開発にも参加させていただいています。Figmaを用いたプロダクトデザインにもチャレンジ中です。
           </p>
         </div>
+      </div>
+      <div className='mt-5 text-center'>
+        <p>
+          <Link href='/'>
+            <a
+              className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
+              href='#pablo'
+            >
+              <span role='img' aria-label='sparkles'>
+                ✨
+              </span>
+            </a>
+          </Link>
+        </p>
       </div>
     </Layout>
   );
