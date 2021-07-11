@@ -222,7 +222,7 @@ const websites = () => {
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 Simple Time Management
               </h2>
-              <p className='text-sm text-gray-200 text-sm md:text-lg lg:text-base leading-7 lg:leading-10 '>
+              <p className='text-sm text-gray-200 md:text-lg lg:text-base leading-7 lg:leading-10 '>
                 Managing your time can make the difference between getting ahead
                 in life or staying exactly where you are.
               </p>
@@ -251,7 +251,7 @@ const websites = () => {
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 The Fruits Life
               </h2>
-              <p className='text-sm text-gray-200 text-sm md:text-lg lg:text-base leading-7 lg:leading-10 '>
+              <p className='text-sm text-gray-200 md:text-lg lg:text-base leading-7 lg:leading-10 '>
                 Take a moment and enjoy to enjoy the many fruits of life.
                 Relaxation and a healthy diet can go a long way.
               </p>
