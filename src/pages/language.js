@@ -23,7 +23,7 @@ const language = () => {
             href='https://apps.apple.com/jp/app/clubhouse-drop-in-audio-chat/id1503133294'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-block mx-auto w-1/4 text-center rounded-full border-8 border-yellow-300 border-dotted'
+            className='inline-block mx-auto text-center rounded-full border-8 border-yellow-300 border-dotted'
           >
             <Image
               className='bg-contain rounded-full border-8 border-yellow-300 border-dotted'

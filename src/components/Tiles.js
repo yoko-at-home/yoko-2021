@@ -10,7 +10,7 @@ export const Tiles = () => {
         className='grid grid-cols-1 md:grid-cols-2 gap-5 mx-10 mt-10 min-h-screen'
       >
         <Link href='/programming'>
-          <a>
+          <a className='cursor-pointer'>
             <article
               style={{ backgroundImage: `url('/pic01.jpg')` }}
               className='pt-20 h-80 text-center bg-top bg-cover'
