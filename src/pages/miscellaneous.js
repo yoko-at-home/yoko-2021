@@ -71,7 +71,8 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -111,7 +112,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -166,13 +167,13 @@ const miscellaneous = () => {
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
-                </span>{" "}
+                </span>
                 パパのことオタクっていうけど、ママも相当だよね（娘
               </li>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
-                </span>{" "}
+                </span>
                 心が暇なら死んだ方がマシ...
               </li>
             </ul>
@@ -181,7 +182,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -221,7 +222,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -300,14 +301,14 @@ const miscellaneous = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Button name={"アプリを覗く"} />
+                <Button className="mr-3">アプリを覗く</Button>
               </a>
               <a
                 href='https://qin-lt-sounds.netlify.app//'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Button name={"司会原稿を覗く"} />
+                <Button>司会原稿を覗く</Button>
               </a>
             </div>
           </div>
@@ -347,7 +348,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -423,7 +424,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -463,7 +464,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -538,7 +539,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -577,7 +578,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -652,7 +653,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
@@ -691,7 +692,7 @@ const miscellaneous = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"アプリを覗く"} />
+              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}

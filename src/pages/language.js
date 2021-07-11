@@ -17,7 +17,7 @@ const language = () => {
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className='flex flex-col justify-center text-center'>
           <div className='m-20'>
-            <ButtonYellow name={"clubhouseやってます"} />
+            <ButtonYellow>clubhouseやってます</ButtonYellow>
           </div>
           <a
             href='https://apps.apple.com/jp/app/clubhouse-drop-in-audio-chat/id1503133294'

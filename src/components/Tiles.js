@@ -16,10 +16,10 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-top bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='Programming' />
+                <Button2>Programming</Button2>
               </div>
               <div className='mt-10 shadow-2xl'>
-                <Button2 name='始まりは...' />
+                <Button2>始まりは...</Button2>
               </div>
             </article>
           </a>
@@ -31,10 +31,10 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-top bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='情報発信の威力を知る...' />
+                <Button2>情報発信の威力を知る...</Button2>
               </div>
               <div className='mt-10 shadow-2xl '>
-                <Button2 name='Websites' />
+                <Button2>Websites</Button2>
               </div>
             </article>
           </a>
@@ -47,10 +47,10 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-top bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='学ぶ仲間を得る...' />
+                <Button2>学ぶ仲間を得る...</Button2>
               </div>
               <div className='mt-10 shadow-2xl '>
-                <Button2 name='Community' />
+                <Button2>Community</Button2>
               </div>
             </article>
           </a>
@@ -62,10 +62,10 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-center bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='TOEICかつて9...' />
+                <Button2>TOEICかつて9...</Button2>
               </div>
               <div className='mt-10 shadow-2xl '>
-                <Button2 name='Language' />
+                <Button2>Language'</Button2>
               </div>
             </article>
           </a>
@@ -77,10 +77,10 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-top bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='歌ってます...' />
+                <Button2>歌ってます...</Button2>
               </div>
               <div className='mt-10 shadow-2xl '>
-                <Button2 name='Singing' />
+                <Button2>Singing</Button2>
               </div>
             </article>
           </a>
@@ -92,10 +92,10 @@ export const Tiles = () => {
               className='pt-20 h-80 text-center bg-top bg-cover'
             >
               <div className='shadow-2xl'>
-                <Button2 name='作り続けたものたちその数...' />
+                <Button2>作り続けたものたちその数...</Button2>
               </div>
               <div className='mt-10 shadow-2xl '>
-                <Button2 name='Miscellaneous' />
+                <Button2>Miscellaneous</Button2>
               </div>
             </article>
           </a>

@@ -28,7 +28,7 @@ const programming = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"櫻井ピアノスクールのサイト"} />
+              <Button>櫻井ピアノスクールのサイト</Button>
             </a>
           </div>
         </div>
@@ -69,7 +69,7 @@ const programming = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"蔵元佳肴 いづみ橋"} />
+              <Button>蔵元佳肴 いづみ橋</Button>
             </a>
           </div>
         </div>
@@ -110,7 +110,7 @@ const programming = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"メルカリクローンのサイト"} />
+              <Button>メルカリクローンのサイト</Button>
             </a>
           </div>
         </div>
@@ -153,7 +153,7 @@ const programming = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Button name={"独学エンジニア"} />
+              <Button>独学エンジニア</Button>
             </a>
           </div>
         </div>
