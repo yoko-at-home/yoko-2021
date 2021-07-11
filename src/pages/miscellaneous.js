@@ -72,7 +72,6 @@ const miscellaneous = () => {
               rel='noopener noreferrer'
             >
               <Button>アプリを覗く</Button>
-              <Button>アプリを覗く</Button>
             </a>
           </div>
           {/* <!-- End  Content --> */}
