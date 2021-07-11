@@ -37,14 +37,14 @@ const language = () => {
         </div>
 
         <div className='flex flex-col justify-between text-center'>
-          <div className='p-5 lg:px-10'>
+          <div className='p-10 md:p-20'>
             <h3 className='mb-5 text-lg md:text-2xl underline'>
               プログラミングの英語ドキュメンテーションやブログを音読
             </h3>
-            <p className='lg:w-min min-w-full text-sm lg:text-base text-left'>
+            <p className='min-w-full text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-left '>
               平日の8:05-8:25、徒然なるままに音読しています。React系のドキュメンテーションを読んでいることが多いです。ちょっと話題になったブログや、新しいPaasなどの情報も読んでます。
             </p>
-            <p className='lg:w-min min-w-full text-sm lg:text-base text-left'>
+            <p className='min-w-full text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-left '>
               もうすっかり廃れた感のあるclubhouseですが、訪れてくれる方がいて、継続する力になっています。感謝！
               使わなくなるとすぐに忘れてしまうのが、語学。プログラミングやってて、英語できてよかったなと思うこの頃です。
               言葉が読めるだけでは太刀打ちできませんが、日々小さな積み重ねで、瞬発力が出せると思っています。
@@ -57,7 +57,7 @@ const language = () => {
             Richmond, Surrey UK
           </span>
         </div> */}
-        <div className='text-center'>
+        <div className='mt-10 text-center'>
           <ImageShrink
             width={700}
             height={500}

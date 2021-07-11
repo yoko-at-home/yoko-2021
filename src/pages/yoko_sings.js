@@ -40,7 +40,7 @@ const yokosings = () => {
             <h3 className='mb-5 text-lg md:text-2xl underline'>
               {/* 学校に行かないと学べないと思っていた昭和なわたし */}
             </h3>
-            <p className='lg:w-min min-w-full text-sm lg:text-base leading-7'>
+            <p className='lg:w-min min-w-full text-sm md:text-lg lg:text-base leading-7 lg:leading-10 '>
               なぜか「設立当初から」のキーワードと縁のある今日この頃。若かりし頃は歌を歌うのが好きでしたが、その機会はすっかり失われておりました。10年越しに声をかけてくださっていた友人の誘いに応じ本当に久しぶりに、歌を歌っています。
               長い歴史のある合唱団ですが、コロナで仕切り直しとなり、今年第一回演奏会を開催すべく、猛練習中です。
               <br />
@@ -54,7 +54,7 @@ const yokosings = () => {
           </div>
         </div>
         <div className='flex flex-col justify-between text-center'>
-          <div className='my-2.5 md:mx-10 lg:mx-20 text-center'>
+          <div className='my-7 md:mx-10 lg:mx-20 text-center'>
             <iframe
               title='ポレポーレ第一回演奏会ご案内'
               width='100%'

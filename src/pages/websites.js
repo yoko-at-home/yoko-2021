@@ -72,7 +72,7 @@ const websites = () => {
                   動くサイトが作りたくて
                 </a>
               </h2>
-              <p className='text-sm text-gray-200'>
+              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
                 動きのあるサイトが作ってみたくて、同じ内容のデザイン違いを作りました。
                 コロナが明けたらデザインリニューアルも楽しいかも！？と思っていましたが、今後作るのであれば、表示速度の優れたReact製のにしたいと思っているので、このページにひっそりとおいて、このサイト作りに大量の時間を投資した記念碑としたいと思います。
               </p>
@@ -110,7 +110,7 @@ const websites = () => {
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 素材を求めて
               </h2>
-              <p className='text-sm text-gray-200'>
+              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
                 こんなサイトも学習の初めの頃に作りました。知り合いのパン屋さんやカフェの紹介サイト。
               </p>
               <p className='pt-2 text-xs font-medium'>
@@ -147,7 +147,7 @@ const websites = () => {
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 Reactサイトが作ってみたくて。
               </h2>
-              <p className='text-sm text-gray-200'>
+              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
                 素のCSSのは柔軟ですが、レスポンシブ対応に苦しみました。また使用できる画像が、既存のWebサイトのものという制約があり、サイトの魅力を存分に引き出す画像についてよくよく考えさせられました。プロの画像を扱ったサイトを作ってみたいなと思った作品です。
                 そして、ここまで作っておきながら、実は完成していない残念な作品です。Webサイトは、コーディングするのもまぁまぁ大変ですが、サイトを作りたい側の負担もかなり大きいですね。趣味を越えたいのであれば、情報を引き出すスキルも求められます。
               </p>
@@ -188,7 +188,7 @@ const websites = () => {
                   ✨
                 </span>
               </h2>
-              <p className='text-sm text-gray-200'>
+              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
                 Tailwindならレスポンシブも驚くほど簡単。
                 <a href='https://microcms.io/'>MicroCMS</a>
                 のブログって本当によくできているのです。こちらは今後作成予定のメインクーンのブログサイト構築の技術検証に作ったテストサイト。そしてNext.jsのページ遷移の楽なこと！たった半年くらいの間に、どんどん便利な技術が世に送り出されてきます。メルカリサイトのクローンで四苦八苦した認証も、便利なサービスがいくつもあることを知りました。プログラミング、走るのを忘れたらあっという間に置いてきぼりになりそうです。
@@ -222,7 +222,7 @@ const websites = () => {
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 Simple Time Management
               </h2>
-              <p className='text-sm text-gray-200'>
+              <p className='text-sm text-gray-200 text-sm md:text-lg lg:text-base leading-7 lg:leading-10 '>
                 Managing your time can make the difference between getting ahead
                 in life or staying exactly where you are.
               </p>
@@ -251,7 +251,7 @@ const websites = () => {
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 The Fruits Life
               </h2>
-              <p className='text-sm text-gray-200'>
+              <p className='text-sm text-gray-200 text-sm md:text-lg lg:text-base leading-7 lg:leading-10 '>
                 Take a moment and enjoy to enjoy the many fruits of life.
                 Relaxation and a healthy diet can go a long way.
               </p>
