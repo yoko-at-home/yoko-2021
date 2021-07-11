@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { WhiteSpace } from "../components/atom/WhiteSpace";
 import { FireworksSection } from "../components/Fireworks";
 import { HeadPart } from "../components/Head";
 import { Header } from "../components/Header";
@@ -16,8 +17,9 @@ const Home = () => {
         image={"/banner.jpg"}
         url={"https://yoko-2021.vercel.app"}
       />
-      <Header id="top"/>
+      <Header id='top' />
       <FireworksSection />
+      <WhiteSpace />
       <Tiles />
       <div className='mt-5 text-center'>
         <p>
