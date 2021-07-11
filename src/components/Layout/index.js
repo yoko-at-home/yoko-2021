@@ -1,6 +1,7 @@
 import { Footer } from "../Footer";
 import { HeadPart } from "../Head";
 import { Navbar } from "../NavBar";
+import { Sidebar } from "../Sidebar";
 
 export const Layout = (props) => {
   return (
@@ -11,6 +12,7 @@ export const Layout = (props) => {
       <header className='lg:hidden h-16'>
         <HeadPart title={props.title} />
       </header>
+      <Sidebar />
       <div className='text-white'>
         <div
           className='flex flex-col'
