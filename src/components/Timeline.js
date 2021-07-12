@@ -55,8 +55,8 @@ export const Timeline = () => {
                 </span>
                 <br />
                 <br />
-                開発環境をNetlify、本番環境をVercelに置く。
-                SEO、OGP、問い合わせフォーム、 言語属性に対応。
+                開発環境をNetlify、本番環境をVercelに置く。 SEO、OGP、
+                言語属性に対応。
                 Lighthouseパフォーマンススコア98点。JSXの記法についてはほぼマスター。TypeScriptは学習を開始した程度。CLIはかなり自由に使えつつある。
                 <br />
                 今後の課題：グローバルな状態の保持、現状のスキルはプログラミング全般で基本概念を抑えた程度であり、props、stateの管理など全般により早く正確に実装するスキルが望まれる。OGPはページごとのmetaデータの出しわけが要学習。
