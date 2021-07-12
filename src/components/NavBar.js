@@ -19,7 +19,7 @@ export const Navbar = () => {
               <span role='img' aria-label='sparkles animate-pulse'>
                 ✨
               </span>
-              <span className='ml-2 text-xs text-yellow-100 hover:bg-gray-700 bg-opacity-30 animate-pulse'>
+              <span className='ml-2 text-xs text-yellow-100 bg-opacity-30 animate-pulse'>
                 メニュー
               </span>
               <span role='img' aria-label='sparkles animate-pulse'>
