@@ -607,7 +607,7 @@ const miscellaneous = () => {
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
             <a
-              href='https://qin-lt.netlify.app/'
+              href='https://qin-lt.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -653,7 +653,7 @@ const miscellaneous = () => {
               </li>
             </ul>
             <a
-              href='https://qin-lt.netlify.app/'
+              href='https://qin-lt.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
             >
