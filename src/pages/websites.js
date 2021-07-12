@@ -8,7 +8,7 @@ const websites = () => {
     <Layout>
       <BannerLanding title='Webサイト' description='試行錯誤' />
       {/* <!-- Section 1 --> */}
-      <section id="top">
+      <section id='top'>
         <div className='py-6 sm:py-8 md:py-12 px-5 mx-auto space-y-5 sm:space-y-8 md:space-y-16 w-full max-w-7xl'>
           <div className='flex flex-col md:flex-row items-center sm:px-5'>
             <div className='w-full md:w-1/2'>
@@ -178,17 +178,24 @@ const websites = () => {
                   src='/pic_microcms.jpg'
                 />
               </a>
-              <div className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-500 bg-opacity-50 rounded-full'>
-                <span>ヘッドレスCMS x Next.js</span>
+              <div>
+              <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
+                ヘッドレスCMS
+              </span> <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
+                Next.js
+              </span>
               </div>
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
-                APIを取得してデータが表示できた
+                APIを取得してデータが表示
                 <span role='img' aria-label='sparkles'>
                   ✨
                 </span>
               </h2>
-              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
-                Tailwindならレスポンシブも驚くほど簡単。
+              <p
+                id='blog'
+                className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '
+              >
+                Tailwindならレスポンシブも驚くほど簡単。メディアクエリでかなりレスポンシブ対応ができるようになりましたが、ライブラリーを使用すれば、開発時間をグッと短縮できます。
                 <a href='https://microcms.io/'>MicroCMS</a>
                 のブログって本当によくできているのです。こちらは今後作成予定のメインクーンのブログサイト構築の技術検証に作ったテストサイト。そしてNext.jsのページ遷移の楽なこと！たった半年くらいの間に、どんどん便利な技術が世に送り出されてきます。メルカリサイトのクローンで四苦八苦した認証も、便利なサービスがいくつもあることを知りました。プログラミング、走るのを忘れたらあっという間に置いてきぼりになりそうです。
               </p>

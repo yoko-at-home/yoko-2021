@@ -9,7 +9,7 @@ const programming = () => {
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto mt-36'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className='flex flex-col lg:order-1 justify-center mb-20 text-center'>
-          <h3 className='mb-8 text-4xl'>【はじめてのWebサイト】</h3>
+          <h3 id="sakuraipiano" className='mb-8 text-4xl'>【はじめてのWebサイト】</h3>
           <a
             href={"https://sakuraipiano.com"}
             target='_blank'
@@ -93,7 +93,9 @@ const programming = () => {
           </p>
         </div>
         <div className='flex flex-col lg:order-5 justify-center text-center'>
-          <h3 className='mb-8 text-4xl'>【はじめてのWebサイト模写】</h3>
+          <h3 id='mercari' className='mb-8 text-4xl'>
+            【はじめてのWebサイト模写】
+          </h3>
           <a
             href={"https://mercari-yoko-2020.netlify.app/"}
             target='_blank'

@@ -50,3 +50,18 @@ export const ButtonYellow: VFC<InputType> = (props) => {
     </button>
   );
 };
+export const ButtonSmall: VFC<InputType> = (props) => {
+  return (
+    <a
+      href={props.src}
+      target='_blank'
+      rel='noopener noreferrer'
+      className='group inline-flex overflow-hidden relative justify-center items-center p-0.5 mt-3 rounded-md'
+    >
+      <span className='absolute w-full h-full bg-gradient-to-r from-yellow-400 via-green-500 to-purple-500'></span>
+      <span className='relative p-1 mx-auto bg-green-700 group-hover:bg-opacity-0 rounded-md transition-all duration-300 ease-out'>
+        <span className='relative text-xs text-white'>{props.children}</span>
+      </span>
+    </a>
+  );
+};
