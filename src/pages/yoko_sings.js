@@ -63,7 +63,7 @@ const yokosings = () => {
               frameBorder='0'
               allowFullScreen
             />
-            <div className='my-2.5'>
+            <div className='my-3'>
               <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
                 iMovie
               </span>
@@ -82,7 +82,14 @@ const yokosings = () => {
             alt={"ポレポーレ"}
             desc={"ポレポーレ"}
           />
-          <div>
+          <ImageShrink
+            width={700}
+            height={500}
+            src={"/pic_polepole_inside.jpg"}
+            alt={"ポレポーレ"}
+            desc={"ポレポーレ"}
+          />
+          <div className='my-3'>
             <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-yellow-400 rounded-full'>
               Illustrator
             </span>
