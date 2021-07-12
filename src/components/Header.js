@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <main>
-      <div className='flex relative justify-center content-center items-center pt-16 pb-32 h-1/4'>
+      <div className='flex relative justify-center content-center items-center pt-16 pb-32 min-w-full h-1/4 lg:h-1/3'>
         <div
           className='absolute top-0 w-full h-full bg-top bg-cover'
           style={{
@@ -13,9 +13,9 @@ export const Header = () => {
             className='absolute w-full h-full bg-black opacity-75'
           ></span>
         </div>
-        <div className='container relative mx-auto'>
+        <div className='container relative'>
           <div className='flex flex-wrap items-center'>
-            <div className='px-4 mr-auto ml-auto w-full lg:w-6/12 text-center'>
+            <div className='py-4 mr-auto ml-auto w-full text-center'>
               <div className='pr-12'>
                 <h1
                   className='text-3xl md:text-5xl font-semibold text-white animate-pulse'

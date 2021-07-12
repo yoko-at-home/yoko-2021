@@ -9,7 +9,7 @@ export const ImageShrink = (src, alt, href) => {
         </span>
       </div>
       <Image
-        className='md:min-w-full hover:opacity-90 transition duration-500 ease-in-out transform hover:scale-95'
+        className='md:min-w-full rounded hover:opacity-90 transition duration-500 ease-in-out transform hover:scale-95'
         width={700}
         height={500}
         src={src}

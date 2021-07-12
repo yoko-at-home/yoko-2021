@@ -2,13 +2,14 @@ import { Button } from "../components/atom/Button";
 import { ImageShrink } from "../components/atom/ImageShrink";
 import { Layout } from "../components/Layout";
 
+
 const programming = () => {
   return (
     <Layout>
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto mt-36'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
-        <div className='flex flex-col lg:order-1 justify-center text-center'>
-          【はじめてのWebサイト】
+        <div className='flex flex-col lg:order-1 justify-center mb-20 text-center'>
+          <h3 className='mb-8 text-4xl'>【はじめてのWebサイト】</h3>
           <a
             href={"https://sakuraipiano.com"}
             target='_blank'
@@ -50,7 +51,9 @@ const programming = () => {
           </div>
         </div>
         <div className='flex flex-col lg:order-4 justify-center text-center'>
-          【はじめてのWebサイトは、ご馳走になりました】
+          <h3 className='mb-8 text-2xl'>
+            【はじめてのWebサイトは、ご馳走になりました】
+          </h3>
           <a
             href='https://izumibashi.com/kakou/'
             target='_blank'
@@ -90,7 +93,7 @@ const programming = () => {
           </p>
         </div>
         <div className='flex flex-col lg:order-5 justify-center text-center'>
-          【はじめてのWebサイト模写】
+          <h3 className='mb-8 text-4xl'>【はじめてのWebサイト模写】</h3>
           <a
             href={"https://mercari-yoko-2020.netlify.app/"}
             target='_blank'
@@ -134,7 +137,7 @@ const programming = () => {
           </div>
         </div>
         <div className='flex flex-col lg:order-8 justify-center text-center'>
-          【山浦先生は熱かった】
+          <h3 className='mb-8 text-4xl'>【山浦先生は熱かった】</h3>
           <a
             href='https://dokugaku-engineer.com/'
             target='_blank'
@@ -164,7 +167,7 @@ const programming = () => {
             その山浦先生が提供する教材の数々。わかりやすくバックエンドの知識を得ることができました。メルカリクローンの制作で手一杯になり、途中退出してしまいましたが、リタイヤしたOver50のおばさんの質問に全身全霊お答えいただいたNotion今でも忘れません。YouTubeで熱く語るお姿拝見しています。
           </p>
         </div>
-      </div>{" "}
+      </div>
     </Layout>
   );
 };

@@ -20,16 +20,16 @@ const Copyright = () => {
 export const Footer = () => {
 
   return (
-      <div
-        id='footer'
-        className='flex justify-center w-screen'
-        style={{ backgroundColor: "rgba(12, 12, 58)" }}
-      >
-        <div className='p-1'>
-          <Icons />
-          <Copyright />
-        </div>
-  </div>
-    );
+    <div
+      id='footer'
+      className='flex justify-center mt-36'
+      style={{ backgroundColor: "rgba(12, 12, 58)" }}
+    >
+      <div className='p-1'>
+        <Icons />
+        <Copyright />
+      </div>
+    </div>
+  );
 ;;
 };
