@@ -2,6 +2,7 @@ import { Button } from "../components/atom/Button";
 import { ImageShrink } from "../components/atom/ImageShrink";
 import { Layout } from "../components/Layout";
 
+
 const programming = () => {
   return (
     <Layout>
@@ -164,7 +165,7 @@ const programming = () => {
             その山浦先生が提供する教材の数々。わかりやすくバックエンドの知識を得ることができました。メルカリクローンの制作で手一杯になり、途中退出してしまいましたが、リタイヤしたOver50のおばさんの質問に全身全霊お答えいただいたNotion今でも忘れません。YouTubeで熱く語るお姿拝見しています。
           </p>
         </div>
-      </div>{" "}
+      </div>
     </Layout>
   );
 };

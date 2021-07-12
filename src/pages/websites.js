@@ -1,15 +1,15 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
+import {LinkToTop} from "../components/LinkToTop";
 
 const websites = () => {
   return (
     <Layout>
       <BannerLanding title='Webサイト' description='試行錯誤' />
       {/* <!-- Section 1 --> */}
-      <section className=''>
+      <section id="top">
         <div className='py-6 sm:py-8 md:py-12 px-5 mx-auto space-y-5 sm:space-y-8 md:space-y-16 w-full max-w-7xl'>
           <div className='flex flex-col md:flex-row items-center sm:px-5'>
             <div className='w-full md:w-1/2'>
@@ -266,9 +266,9 @@ const websites = () => {
           </div>
         </div>
       </section>
-      <div className='mt-5 text-center'>
+      {/* <div className='mt-5 text-center'>
         <p>
-          <Link href='/'>
+          <Link href='#top'>
             <a
               className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
               href='#pablo'
@@ -279,7 +279,8 @@ const websites = () => {
             </a>
           </Link>
         </p>
-      </div>
+      </div> */}
+      <LinkToTop/>
     </Layout>
   );
 };

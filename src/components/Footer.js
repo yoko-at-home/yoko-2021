@@ -22,7 +22,7 @@ export const Footer = () => {
   return (
     <div
       id='footer'
-      className='flex justify-center'
+      className='flex justify-center mt-36'
       style={{ backgroundColor: "rgba(12, 12, 58)" }}
     >
       <div className='p-1'>
