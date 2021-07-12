@@ -3,16 +3,17 @@ import Head from "next/head";
 export const HeadPart = () => {
   const image = "https://yoko-2021.vercel.app/ogp.jpg";
   const url = "https://yoko-2021.vercel.app/";
+  const content = "yoko Webで遊ぶ | 2020〜2021の活動をまとめました";
   return (
     <Head>
       <title>yoko | webで遊ぶ | プログラミングを学ぶ</title>
       <meta
         name='description'
-        content='yoko Webで遊ぶ | 2020〜2021の活動をまとめました'
+        content={content}
       />
       <meta
         property='og:title'
-        content='yoko Webで遊ぶ | 2020〜2021の活動をまとめました'
+        content={content}
       />
       <meta
         property='og:description'
@@ -24,7 +25,7 @@ export const HeadPart = () => {
       <meta property='og:image' content={image} />
       <meta
         property='og:site_name'
-        content='yoko Webで遊ぶ | 2020〜2021の活動をまとめました'
+        content={content}
       />
       <meta
         name='twitter:card'
@@ -35,7 +36,7 @@ export const HeadPart = () => {
       <meta name='twitter:url' content={image} />
       <meta
         name='twitter:title'
-        content='yoko Webで遊ぶ | 2020〜2021の活動をまとめました'
+        content={content}
       />
       <meta
         name='twitter:description'

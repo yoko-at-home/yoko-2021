@@ -4,7 +4,7 @@ export const Sidebar = () => {
   return (
     <>
       <nav
-        className='hidden lg:block overflow-hidden overflow-y-auto relative md:fixed top-0 bottom-0 left-0 z-10 flex-row flex-nowrap justify-between py-4 px-6 w-64 text-white border-8 border-purple-50 border-double shadow-xl'
+        className='hidden lg:block overflow-hidden overflow-y-auto relative md:fixed top-0 bottom-0 left-0 z-10 flex-row flex-nowrap justify-between py-4 px-6 w-64 text-lg tracking-widest text-white border-8 border-purple-50 border-double shadow-xl'
         style={{
           background:
             "linear-gradient(180deg, rgba(2,9,66,1) 4%, rgba(6,85,92,1) 76%)",
@@ -15,7 +15,16 @@ export const Sidebar = () => {
             <li className='flex'>
               <Link href='/'>
                 <a className='flex p-3 text-xs font-bold text-left text-white hover:text-yellow-400 uppercase'>
-                  <span className='py-3 ml-2 text-yellow-100'>home</span>
+                  <span className='py-3 ml-2 text-yellow-100'>ホーム</span>
+                </a>
+              </Link>
+            </li>
+            <li className='flex'>
+              <Link href='/skills'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
+                  <span className='py-3 ml-2 text-yellow-100'>
+                    スキルまとめ
+                  </span>
                 </a>
               </Link>
             </li>
