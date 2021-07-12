@@ -232,7 +232,7 @@ export const Timeline = () => {
             <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
-                2020
+                2021
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
