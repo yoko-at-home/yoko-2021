@@ -39,7 +39,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 ポートフォリオサイト（本サイト）の作成
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
@@ -77,7 +77,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 <Link href='/websites#blog'>ブログサイト構築検証</Link>
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
@@ -128,7 +128,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 <Link href='/miscellaneous/#bulletin'>
                   お題投稿アプリの開発
                 </Link>
@@ -164,7 +164,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 Ring the Bells（LT会登壇用アプリ）
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
@@ -203,7 +203,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 <Link href='/miscellaneous/#chat'>チャットアプリの開発</Link>
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
@@ -237,7 +237,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 <Link href='/programming/#mercari'>
                   メルカリサイトのクローン
                 </Link>
@@ -284,7 +284,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 <Link href='/websites/#choco'>Webサイト作成</Link>
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
@@ -317,7 +317,7 @@ export const Timeline = () => {
               </h3>
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
-              <h3 className='mb-3 text-lg font-bold text-gray-800'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
                 <Link href='/programming/#sakuraipiano'>学習の開始</Link>
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
