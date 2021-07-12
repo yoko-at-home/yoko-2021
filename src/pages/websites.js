@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
-import {LinkToTop} from "../components/LinkToTop";
 
 const websites = () => {
   return (
@@ -266,21 +265,6 @@ const websites = () => {
           </div>
         </div>
       </section>
-      {/* <div className='mt-5 text-center'>
-        <p>
-          <Link href='#top'>
-            <a
-              className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
-              href='#pablo'
-            >
-              <span role='img' aria-label='sparkles'>
-                ✨
-              </span>
-            </a>
-          </Link>
-        </p>
-      </div> */}
-      <LinkToTop/>
     </Layout>
   );
 };
