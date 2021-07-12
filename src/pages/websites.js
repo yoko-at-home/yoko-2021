@@ -125,7 +125,10 @@ const websites = () => {
               </p>
             </div>
 
-            <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
+            <div
+              id='choco'
+              className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'
+            >
               <a
                 href='https://chocolate-react.netlify.app/'
                 target='_blank'
@@ -179,11 +182,12 @@ const websites = () => {
                 />
               </a>
               <div>
-              <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
-                ヘッドレスCMS
-              </span> <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                Next.js
-              </span>
+                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
+                  ヘッドレスCMS
+                </span>{" "}
+                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
+                  Next.js
+                </span>
               </div>
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 APIを取得してデータが表示
