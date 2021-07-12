@@ -148,7 +148,7 @@ export const Timeline = () => {
                 オンラインコミュニティイベントでメンバーからのお題を投稿するためにアプリにチャレンジ。ローカルストレージにメモを登録するコードを参照して、フロントの実装を勧めたが、複数人による投稿を可能にするためにFirebaseでバックエンド処理を実装した。
                 実際にはバックエンド処理は自力ではできず、現役エンジニアとの初の共同開発となった。ブランチを切って開発する実践を経験。アプリとして多くの課題があったものの、制作からデプロイまで1週間以内で完成にこぎつけ、プログラミングに自信を得た作品。これを機に、素のCSSでの実装に課題を感じる。
               </p>
-              <ButtonSmall src='hhttps://github.com/yoko-at-home/qin_bulletin-board/'>
+              <ButtonSmall src='https://github.com/yoko-at-home/qin_bulletin-board/'>
                 To GitHub
               </ButtonSmall>
             </div>
@@ -177,7 +177,7 @@ export const Timeline = () => {
                 </span>
                 過去の出来事を物語調に語るために作ったアプリ。過去のJavaScriptのコードをReactに応用。スムーズスクロール、React-mouse-particleなど、美しくて便利なライブラリを知る。
               </p>
-              <ButtonSmall src='hhttps://github.com/yoko-at-home/next-microcms'>
+              <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
               </ButtonSmall>
             </div>
@@ -221,7 +221,7 @@ export const Timeline = () => {
                 はむさんのUdemyの井戸端会議アプリの講座を受講してほぼそのまま使用しています。
                 オンラインイベントで過去３回使用された経験があり、その度ごとに模様替え、その後質問が分かりにくなどの課題があり、質問にチェックを入れると質問タブに表示されるように進化を重ねています。
               </p>
-              <ButtonSmall src='hhttps://github.com/yoko-at-home/qin_bulletin-board/'>
+              <ButtonSmall src='https://github.com/yoko-at-home/qin_bulletin-board/'>
                 To GitHub
               </ButtonSmall>
             </div>
@@ -257,7 +257,7 @@ export const Timeline = () => {
                 初めてReactを知り、html/cssでクローンしたサイトをjsx化。ログイン、データベース処理（PostgresQL）を学ぶ。Reactの基礎、json,
                 jwt, async awaitなどの構文,ローカルストレージなど広く浅く学ぶ。
               </p>
-              <ButtonSmall src='hhttps://github.com/yoko-at-home/next-microcms'>
+              <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
               </ButtonSmall>
             </div>
@@ -285,7 +285,7 @@ export const Timeline = () => {
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
               <h3 className='mb-3 text-lg font-bold text-gray-800'>
-                <Link href='/miscellaneous/#chat'>Webサイト作成</Link>
+                <Link href='/websites/#choco'>Webサイト作成</Link>
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
@@ -295,12 +295,15 @@ export const Timeline = () => {
                 <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
                   素のCSS
                 </span>
+                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
+                  Netlify(お問合せフォーム)
+                </span>
                 <br />
-                学びたてのReactを使ってみたくてサイトを作成。さまざまなミニアプリを量産していた時期。
+                学びたてのReactを使ってみたくてサイトを作成。さまざまなミニアプリを量産していた時期。お問合せフォームの実装に苦労しました。Netlifyではお問合せフォームが無料で設置できるため、練習してみました。
               </p>
-              {/* <ButtonSmall src='hhttps://github.com/yoko-at-home/qin_bulletin-board/'>
+              <ButtonSmall src='https://github.com/yoko-at-home/chocolatepiano_react'>
                 To GitHub
-              </ButtonSmall> */}
+              </ButtonSmall>
             </div>
           </div>
 
@@ -331,7 +334,7 @@ export const Timeline = () => {
                 <br />
                 Progate、ドットインストールで独学を開始。初めてのWebサイトをネットで見つけたBootstrapテンプレートを用いて作成。AWSのS3にホスティングし、Route53でルーティングをしてみた。AWSを剪定したのは、前職でのサービスがAWSを使用しており、離職後も理解を深めてみたいという思いが強かったため。
               </p>
-              {/* <ButtonSmall src='hhttps://github.com/yoko-at-home/next-microcms'>
+              {/* <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
               </ButtonSmall> */}
             </div>
