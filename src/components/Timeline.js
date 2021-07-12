@@ -269,7 +269,7 @@ export const Timeline = () => {
             <div className='order-1 w-5/12'></div>
             <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
             {/* <div className='flex z-20 order-1 items-center w-16 h-16 bg-gray-300 rounded-full shadow-xl'> */}
-              <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
             {/* </div> */}
             <div className='order-1 py-4 px-6 w-5/12 rounded-lg'></div>
           </div>
@@ -306,6 +306,7 @@ export const Timeline = () => {
           {/* <!-- left timeline --> */}
           <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
+            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 April
