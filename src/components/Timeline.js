@@ -70,6 +70,7 @@ export const Timeline = () => {
           {/* <!-- left timeline --> */}
           <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-5 w-full'>
             <div className='order-1 w-5/12'></div>
+            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 June
