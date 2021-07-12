@@ -552,7 +552,8 @@ const miscellaneous = () => {
               Ring the Bells
             </h2>
             <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
-              IT KINGDOM LT会登壇のために作ったアプリ。
+              IT KINGDOM
+              LT会登壇のために作ったアプリ。アプリに行って、ひつじさんをタップしてみて。素敵な1日になること間違いなし！
             </p>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
