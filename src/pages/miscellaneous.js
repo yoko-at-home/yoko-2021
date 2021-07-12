@@ -299,7 +299,7 @@ const miscellaneous = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Button className="mr-3">アプリを覗く</Button>
+                <Button className='mr-3'>アプリを覗く</Button>
               </a>
               <a
                 href='https://qin-lt-sounds.netlify.app//'
@@ -545,7 +545,10 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Content --> */}
           <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+            <h2
+              id='bell'
+              className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'
+            >
               Ring the Bells
             </h2>
             <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
@@ -620,7 +623,10 @@ const miscellaneous = () => {
 
           {/* <!-- Content --> */}
           <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
-            <h2 id="chat" className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+            <h2
+              id='chat'
+              className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'
+            >
               チャットアプリ
             </h2>
             <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
@@ -659,7 +665,10 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Content --> */}
           <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
-            <h2 id="bulletin" className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+            <h2
+              id='bulletin'
+              className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'
+            >
               お題投稿アプリ
             </h2>
             <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>

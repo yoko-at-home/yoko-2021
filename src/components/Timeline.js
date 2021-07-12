@@ -165,7 +165,9 @@ export const Timeline = () => {
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
               <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
-                Ring the Bells（LT会登壇用アプリ）
+                <Link href='/miscellaneous/#bell'>
+                  Ring the Bells（LT会登壇用アプリ）
+                </Link>
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
                 使用技術：
