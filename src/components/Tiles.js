@@ -7,7 +7,7 @@ export const Tiles = () => {
     <div id='main'>
       <section
         id='one'
-        className='grid grid-cols-1 md:grid-cols-2 gap-5 mx-10 mt-10 min-h-screen'
+        className='grid grid-cols-1 md:grid-cols-2 gap-5 mx-1 mt-10 min-h-screen'
       >
         <Link href='/programming'>
           <a className='cursor-pointer'>

@@ -6,7 +6,7 @@ import { Sidebar } from "../Sidebar";
 export const Layout = (props) => {
   return (
     <div
-      className='flex lg:grid lg:grid-cols-1 lg:auto-cols-fr justify-center lg:pl-60 min-h-screen bg-opacity-50'
+      className='grid grid-cols-1 lg:auto-cols-fr justify-center lg:pl-60 w-screen min-h-screen bg-opacity-50'
       style={{ backgroundColor: "rgba(12, 12, 58)" }}
     >
       <header className='lg:hidden h-16'>

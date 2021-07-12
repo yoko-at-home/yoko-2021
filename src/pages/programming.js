@@ -5,7 +5,7 @@ import { Layout } from "../components/Layout";
 const programming = () => {
   return (
     <Layout>
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto mt-36'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className='flex flex-col lg:order-1 justify-center text-center'>
           【はじめてのWebサイト】
