@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { WhiteSpace } from "./atom/WhiteSpace";
 import { FireworksSection } from "./Fireworks";
 import { HeadPart } from "./Head";
@@ -21,20 +19,6 @@ export const Landing = () => {
       <FireworksSection />
       <WhiteSpace />
       <Tiles />
-      <div className='mt-5 text-center'>
-        <p>
-          <Link href='/#top'>
-            <a
-              className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
-              href='#pablo'
-            >
-              <span role='img' aria-label='sparkles'>
-                ✨
-              </span>
-            </a>
-          </Link>
-        </p>
-      </div>
     </Layout>
   );
 };
