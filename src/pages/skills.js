@@ -1,10 +1,10 @@
-import { KotaroAnimation } from "../components/KotaroAnimation";
+// import { KotaroAnimation } from "../components/KotaroAnimation";
 import { Timeline } from "../components/Timeline";
 
 const skills = () => {
   return (
     <div>
-      <KotaroAnimation />
+      {/* <KotaroAnimation /> */}
       <Timeline />
     </div>
   );
