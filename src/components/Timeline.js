@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { SkillTagSolid } from "../components/atom/SkillTag";
 import { BannerLanding } from "../components/BannerLanding";
 import { ButtonSmall } from "./atom/Button";
 import { Layout } from "./Layout";
@@ -44,16 +45,12 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  Next.js
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
-                  Tailwind css
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-yellow-400 rounded-full'>
-                  TypeScript
-                </span>
-                <br />
+                <SkillTagSolid spanColor='red'>Next.js</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>Tailwind css</SkillTagSolid>
+                <SkillTagSolid spanColor='yellow'>TypeScript</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
+                  Vercel + Netlify
+                </SkillTagSolid>
                 <br />
                 開発環境をNetlify、本番環境をVercelに置く。
                 SEO、OGP、問い合わせフォーム、 言語属性に対応。
@@ -82,15 +79,9 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  Next.js
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
-                  Tailwind css
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
-                  MicroCMS
-                </span>
+                <SkillTagSolid spanColor='red'>Next.js</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>Tailwind css</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>microCMS</SkillTagSolid>
                 <br />
                 ブログサイト構築の打診を受け、技術検証を実施。APIを取得してデータを更新できることを確認する。フルスクラッチでループ処理などを実装する実力はないが
                 <a
@@ -135,15 +126,13 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  React
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
+                <SkillTagSolid spanColor='red'>React</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>
                   Material UI + 素のCSS
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
-                  Firebase
-                </span>
+                </SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
+                  Vercel + Firebase
+                </SkillTagSolid>
                 <br />
                 オンラインコミュニティイベントでメンバーからのお題を投稿するためにアプリにチャレンジ。ローカルストレージにメモを登録するコードを参照して、フロントの実装を進めたが、複数人による投稿を可能にするためにFirebaseでバックエンド処理を実装した。
                 実際にはバックエンド処理は自力ではできず、現役エンジニアとの初の共同開発となった。ブランチを切って開発する実践を経験。アプリとして多くの課題があったものの、制作からデプロイまで1週間以内で完成にこぎつけ、プログラミングに自信を得た作品。これを機に、素のCSSでの実装に課題を感じる。
@@ -172,12 +161,11 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  React
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
-                  素のCSS
-                </span>
+                <SkillTagSolid spanColor='red'>React</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>
+                  Material UI + 素のCSS
+                </SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>Netlify</SkillTagSolid>
                 過去の出来事を物語調に語るために作ったアプリ。過去のJavaScriptのコードをReactに応用。スムーズスクロール、React-mouse-particleなど、美しくて便利なライブラリを知る。
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
@@ -211,15 +199,13 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  React
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
+                <SkillTagSolid spanColor='red'>React</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>
                   Material UI + 素のCSS
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
-                  Firebase
-                </span>
+                </SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
+                  Vercel + Firebase
+                </SkillTagSolid>
                 <br />
                 はむさんのUdemyの井戸端会議アプリの講座を受講してほぼそのまま使用しています。
                 オンラインイベントで過去３回使用された経験があり、その度ごとに模様替え、その後質問が分かりにくなどの課題があり、質問にチェックを入れると質問タブに表示されるように進化を重ねています。
@@ -247,15 +233,11 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  React
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
-                  素のCSS + BEM
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
-                  Heroku
-                </span>
+                <SkillTagSolid spanColor='red'>React</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>素のCSS + BEM</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
+                  Netlify+ Heroku
+                </SkillTagSolid>
                 <br />
                 初めてReactを知り、html/cssでクローンしたサイトをjsx化。ログイン、データベース処理（PostgresQL）を学ぶ。Reactの基礎、json,
                 jwt, async awaitなどの構文,ローカルストレージなど広く浅く学ぶ。
@@ -292,15 +274,11 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  React
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
-                  素のCSS
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
+                <SkillTagSolid spanColor='red'>React</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>素のCSS</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
                   Netlify(お問合せフォーム)
-                </span>
+                </SkillTagSolid>
                 <br />
                 学びたてのReactを使ってみたくてサイトを作成。さまざまなミニアプリを量産していた時期。お問合せフォームの実装に苦労しました。Netlifyではお問合せフォームが無料で設置できるため、練習してみました。
               </p>
@@ -325,15 +303,11 @@ export const Timeline = () => {
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
                 使用技術：
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  HTML
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-blue-400 rounded-full'>
-                  素のCSS
-                </span>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
+                <SkillTagSolid spanColor='red'>HTML</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>素のCSS</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
                   AWS (S3/Route53)
-                </span>
+                </SkillTagSolid>
                 <br />
                 Progate、ドットインストールで独学を開始。初めてのWebサイトをネットで見つけたBootstrapテンプレートを用いて作成。AWSのS3にホスティングし、Route53でルーティングをしてみた。AWSを剪定したのは、前職でのサービスがAWSを使用しており、離職後も理解を深めてみたいという思いが強かったため。
               </p>

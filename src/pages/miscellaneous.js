@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { Button } from "../components/atom/Button";
+import { SkillTag } from "../components/atom/SkillTag";
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
 
@@ -35,6 +36,9 @@ const miscellaneous = () => {
                 className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>AWS S3</SkillTag>
           </div>
 
           {/* <!-- Content --> */}
@@ -83,7 +87,7 @@ const miscellaneous = () => {
             </h2>
             <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
               ドットインストールを学習しながら作った、カレンダーと時計。二つ組み合わせて琥太郎くんをあしらえば、世界に一つだけのマイウォッチ。格安でアプリを置けるのはAWS
-              S3しかないと思っていたこの頃。
+              S3しかないと思っていた。
             </p>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
@@ -130,6 +134,9 @@ const miscellaneous = () => {
                 className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>AWS S3</SkillTag>
           </div>
         </div>
       </section>
@@ -138,13 +145,22 @@ const miscellaneous = () => {
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
           {/* <!-- Image --> */}
           <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
-            <Image
-              width={700}
-              height={500}
-              alt='aaaa'
-              src={stopwatch}
-              className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
-            />
+            <a
+              href='https://yoko-stage.s3.ap-northeast-1.amazonaws.com/MyStopwatch/index.html'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                width={700}
+                height={500}
+                alt='aaaa'
+                src={stopwatch}
+                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+              />
+            </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'>HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>AWS S3</SkillTag>
           </div>
 
           {/* <!-- Content --> */}
@@ -152,14 +168,13 @@ const miscellaneous = () => {
             <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
               琥太郎ストップウォッチ
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
-              だいたいこの辺りから
-            </p>
+            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'></p>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
+              だいたいこの辺りから
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
-                </span>{" "}
+                </span>
                 ママのプログラミングハマりっぷりは、ドン引き（息子
               </li>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
@@ -240,6 +255,9 @@ const miscellaneous = () => {
                 className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
         </div>
       </section>
@@ -262,6 +280,9 @@ const miscellaneous = () => {
                 className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
 
           {/* <!-- Content --> */}
@@ -277,19 +298,19 @@ const miscellaneous = () => {
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
-                オンラインでのイベントは、いかに迷子にならないかが勝負
+                オンラインでのイベントは、いかに迷子にならないかが勝負。
               </li>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
-                司会原稿に効果音を仕込んでおけば、拍手やファンファーレもタイムリーに鳴らせる
+                司会原稿に効果音を仕込んでおけば、拍手やファンファーレもタイムリーに発動。
               </li>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
-                こんな使い方する人、ほとんどいない（需要なくても気にしない
+                こんな使い方する人、ほとんどいない（需要なくても気にしない。
               </li>
             </ul>
             <div className='flex flex-row justify-between md:justify-items-start w-full'>
@@ -366,6 +387,9 @@ const miscellaneous = () => {
                 className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
         </div>
       </section>
@@ -387,6 +411,9 @@ const miscellaneous = () => {
                 className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
 
           {/* <!-- Content --> */}
@@ -482,6 +509,9 @@ const miscellaneous = () => {
                 className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
         </div>
       </section>
@@ -502,6 +532,9 @@ const miscellaneous = () => {
                 className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
               />
             </a>
+            <SkillTag spanColor='red'>JavaScript</SkillTag>
+            <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
 
           {/* <!-- Content --> */}
@@ -600,6 +633,9 @@ const miscellaneous = () => {
                 className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
               />
             </a>
+            <SkillTag spanColor='red'>React</SkillTag>
+            <SkillTag spanColor='blue'> 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Netliy</SkillTag>
           </div>
         </div>
       </section>
@@ -620,6 +656,9 @@ const miscellaneous = () => {
                 className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
               />
             </a>
+            <SkillTag spanColor='red'>React</SkillTag>
+            <SkillTag spanColor='blue'>Material UI + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Vercel</SkillTag>
           </div>
 
           {/* <!-- Content --> */}
@@ -720,6 +759,9 @@ const miscellaneous = () => {
                 className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
               />
             </a>
+            <SkillTag spanColor='red'>React</SkillTag>
+            <SkillTag spanColor='blue'>Material UI + 素のCSS</SkillTag>
+            <SkillTag spanColor='purple'>Firebase + Vercel</SkillTag>
           </div>
         </div>
       </section>
