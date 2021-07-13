@@ -67,7 +67,7 @@ export const Timeline = () => {
           {/* <!-- left timeline --> */}
           <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-5 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 June
@@ -93,7 +93,7 @@ export const Timeline = () => {
                 </a>
                 などの具体的なコードが示された場合は、実装してスタイリングが可能。課題：行間やマージンの取り方など。
               </p>
-              <ButtonSmall src='hhttps://github.com/yoko-at-home/next-microcms'>
+              <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
               </ButtonSmall>
             </div>
@@ -105,14 +105,14 @@ export const Timeline = () => {
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
             {/* <div className='flex z-20 order-1 items-center w-16 h-16 bg-gray-300 rounded-full shadow-xl'> */}
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             {/* </div> */}
             <div className='order-1 py-4 px-6 w-5/12 rounded-lg'></div>
           </div>
           {/* <!-- right timeline --> */}
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 May
@@ -147,7 +147,7 @@ export const Timeline = () => {
           {/* <!-- left timeline --> */}
           <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 March
@@ -180,14 +180,14 @@ export const Timeline = () => {
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
             {/* <div className='flex z-20 order-1 items-center w-16 h-16 bg-gray-300 rounded-full shadow-xl'> */}
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             {/* </div> */}
             <div className='order-1 py-4 px-6 w-5/12 rounded-lg'></div>
           </div>
           {/* <!-- right timeline --> */}
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-8 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 February
@@ -219,7 +219,7 @@ export const Timeline = () => {
           {/* <!-- left timeline --> */}
           <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 2021
@@ -253,16 +253,16 @@ export const Timeline = () => {
         <div className='overflow-hidden relative left-0 flex-wrap px-10 h-full'>
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             {/* <div className='flex z-20 order-1 items-center w-16 h-16 bg-gray-300 rounded-full shadow-xl'> */}
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             {/* </div> */}
             <div className='order-1 py-4 px-6 w-5/12 rounded-lg'></div>
           </div>
           {/* <!-- right timeline --> */}
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-8 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 November
@@ -291,7 +291,7 @@ export const Timeline = () => {
           {/* <!-- left timeline --> */}
           <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='absolute left-1/2 z-0 h-screen border border-gray-300'></div>
+            <div className='absolute left-1/2 z-0 min-h-screen border border-gray-300'></div>
             <div className='flex relative z-20 order-1'>
               <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 April
