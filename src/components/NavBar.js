@@ -12,14 +12,14 @@ export const Navbar = () => {
         <div className='container flex flex-wrap justify-between items-center px-4 mx-auto'>
           <div className='flex relative justify-end w-full'>
             <button
-              className='block py-1 px-3 text-xl leading-none bg-transparent rounded border border-transparent border-solid cursor-pointer outline-none focus:outline-none'
+              className='block py-1 px-3 text-xl leading-none bg-green-500 bg-opacity-90 rounded-br-full border border-transparent border-solid drop-shadow-xl cursor-pointer outline-none focus:outline-none'
               type='button'
               onClick={handleNavBarOpen}
             >
               <span role='img' aria-label='sparkles animate-pulse'>
                 ✨
               </span>
-              <span className='ml-2 text-xs text-yellow-100 bg-opacity-30 animate-pulse'>
+              <span className='ml-2 text-xs text-white animate-pulse'>
                 メニュー
               </span>
               <span role='img' aria-label='sparkles animate-pulse'>
@@ -39,7 +39,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-white uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
                       home
                     </span>
                   </a>
@@ -48,7 +48,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/skills'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-white uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full'>
                       スキル
                     </span>
                   </a>
@@ -57,7 +57,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/programming'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-white uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
                       プログラミング
                     </span>
                   </a>
@@ -66,7 +66,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/websites'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full'>
                       Webサイト
                     </span>
                   </a>
@@ -75,7 +75,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/community'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
                       ２つのコミュニティ
                     </span>
                   </a>
@@ -84,7 +84,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/language'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full'>
                       語学
                     </span>
                   </a>
@@ -93,7 +93,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/yoko_sings'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
                       歌
                     </span>
                   </a>
@@ -102,7 +102,7 @@ export const Navbar = () => {
               <li className='flex mx-auto'>
                 <Link href='/miscellaneous'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 bg-opacity-30'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full'>
                       いろいろ
                     </span>
                   </a>
