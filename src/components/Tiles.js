@@ -25,7 +25,7 @@ export const Tiles = () => {
           </a>
         </Link>
         <Link href='/websites'>
-          <a>
+          <a href='https://yoko-2021.vercel.app/websites'>
             <article
               style={{ backgroundImage: `url('/pic02.jpg')` }}
               className='pt-20 h-80 text-center bg-top bg-cover'
@@ -41,7 +41,7 @@ export const Tiles = () => {
         </Link>
 
         <Link href='/community'>
-          <a>
+          <a href='https://yoko-2021.vercel.app/community'>
             <article
               style={{ backgroundImage: `url('/pic_over40.jpg')` }}
               className='pt-20 h-80 text-center bg-top bg-cover'
@@ -56,7 +56,7 @@ export const Tiles = () => {
           </a>
         </Link>
         <Link href='/language'>
-          <a>
+          <a href='https://yoko-2021.vercel.app/language'>
             <article
               style={{ backgroundImage: `url('/pic04.jpg')` }}
               className='pt-20 h-80 text-center bg-center bg-cover'
@@ -71,7 +71,7 @@ export const Tiles = () => {
           </a>
         </Link>
         <Link href='/yoko_sings'>
-          <a>
+          <a href='https://yoko-2021.vercel.app/yoko_sings'>
             <article
               style={{ backgroundImage: `url('/pic05.jpg')` }}
               className='pt-20 h-80 text-center bg-top bg-cover'
@@ -86,7 +86,7 @@ export const Tiles = () => {
           </a>
         </Link>
         <Link href='/miscellaneous'>
-          <a>
+          <a href='https://yoko-2021.vercel.app/miscellaneous'>
             <article
               style={{ backgroundImage: `url('/pic06.jpg')` }}
               className='pt-20 h-80 text-center bg-top bg-cover'

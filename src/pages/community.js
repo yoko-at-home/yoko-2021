@@ -74,13 +74,14 @@ const community = () => {
             <br />
             このLT会のために作成した
             <Link href='/programming#chat'>
-              <a>チャットアプリ</a>
+              <a href='https://yoko-2021.vercel.app/programming#chat'>
+                チャットアプリ
+              </a>
             </Link>
             に残されたメッセージが、今では私の宝物となっています(LT会毎にCSSを当て直し、模様替えしています)。こちらのコミュニティも大変活発で、朝活や夜活はもちろん、現役エンジニアを交えてプロダクト開発にも参加させていただいています。Figmaを用いたプロダクトデザインにもチャレンジ中です。
           </p>
         </div>
       </div>
-
     </Layout>
   );
 };
