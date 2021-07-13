@@ -7,6 +7,7 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
+          aria-label='Twitter icon'
           className='justify-center items-center mr-2 w-10 h-10 font-normal text-blue-400 hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
@@ -20,6 +21,7 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
+          aria-label='LinkedIn icon'
           className='justify-center items-center mr-2 w-10 h-10 font-normal text-pink-400 hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
@@ -33,6 +35,7 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
+          aria-label='GitHub icon'
           className='justify-center items-center mr-2 w-10 h-10 font-normal text-black hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
@@ -46,6 +49,7 @@ export const Icons = () => {
         rel='noopener noreferrer'
       >
         <button
+          aria-label='Instagram icon'
           className='justify-center items-center mr-2 w-10 h-10 font-normal text-red-600 hover:text-white bg-white hover:bg-indigo-200 rounded-full shadow-lg outline-none focus:outline-none'
           type='button'
         >
