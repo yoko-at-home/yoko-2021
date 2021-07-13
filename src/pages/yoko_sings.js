@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { ImageShrink } from "../components/atom/ImageShrink";
 import { SkillTagSolid } from "../components/atom/SkillTag";
 import { BannerLanding } from "../components/BannerLanding";
