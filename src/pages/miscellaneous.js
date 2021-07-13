@@ -719,7 +719,7 @@ const miscellaneous = () => {
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
                   <span className='text-sm font-bold'>✓</span>
                 </span>{" "}
-                Firebaseへの登録がわからなくて、現役エンジニアに実装してもらいました。
+                Firebaseへの登録がわからなくて、締め切りの差し迫る中、現役エンジニアと初のコラボ。
               </li>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>

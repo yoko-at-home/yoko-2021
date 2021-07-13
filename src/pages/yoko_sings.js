@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { ImageShrink } from "../components/atom/ImageShrink";
+import { SkillTagSolid } from "../components/atom/SkillTag";
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
 
@@ -29,9 +30,8 @@ const yokosings = () => {
             />
           </a>
           <div className='my-2.5'>
-            <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-green-400 rounded-full'>
-              Gatsby.js x Netlify
-            </span>
+            <SkillTagSolid spanColor='red'>Gatsby.js</SkillTagSolid>
+            <SkillTagSolid spanColor='purple'>Netlify</SkillTagSolid>
           </div>
         </div>
 
@@ -64,9 +64,7 @@ const yokosings = () => {
               allowFullScreen
             />
             <div className='my-3'>
-              <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                iMovie
-              </span>
+              <SkillTagSolid spanColor='green'>iMovie</SkillTagSolid>
             </div>
           </div>
           <p className='mb-5'>
@@ -90,25 +88,9 @@ const yokosings = () => {
             desc={"ポレポーレ"}
           />
           <div className='my-3'>
-            <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-yellow-400 rounded-full'>
-              Illustrator
-            </span>
+            <SkillTagSolid spanColor='green'>iMovie</SkillTagSolid>
           </div>
         </div>
-      </div>
-      <div className='mt-5 text-center'>
-        <p>
-          <Link href='/'>
-            <a
-              className='py-2 mr-4 text-sm font-bold leading-relaxed uppercase whitespace-nowrap '
-              href='#pablo'
-            >
-              <span role='img' aria-label='sparkles'>
-                ✨
-              </span>
-            </a>
-          </Link>
-        </p>
       </div>
     </Layout>
   );
