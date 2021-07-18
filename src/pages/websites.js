@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { SkillTag } from "../components/atom/SkillTag";
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
 
@@ -63,9 +64,11 @@ const websites = () => {
                   src='/pic_piano03.jpg'
                 />
               </a>
-              <div className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-500 bg-opacity-50 rounded'>
-                <span>JavaScript</span>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>JavaScript</SkillTag>
+                <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
               </div>
+
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 <a href='#_' target='_blank' rel='noopener noreferrer'>
                   動くサイトが作りたくて
@@ -103,8 +106,10 @@ const websites = () => {
                   src='/pic_web_zama.jpg'
                 />
               </a>
-              <div className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-pink-500 bg-opacity-50 rounded-full'>
-                <span>AWSの学習</span>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>JavaScript</SkillTag>
+                <SkillTag spanColor='blue'> HTML + 素のCSS</SkillTag>
+                <SkillTag spanColor='purple'>AWS S3</SkillTag>
               </div>
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 素材を求めて
@@ -143,8 +148,10 @@ const websites = () => {
                   src='/pic_piano02.jpg'
                 />
               </a>
-              <div className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-500 bg-opacity-50 rounded'>
-                <span>CSS animation, React</span>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>React</SkillTag>
+                <SkillTag spanColor='blue'>素のCSS</SkillTag>
+                <SkillTag spanColor='purple'>Netlify</SkillTag>
               </div>
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 Reactサイトが作ってみたくて。
@@ -181,13 +188,10 @@ const websites = () => {
                   src='/pic_microcms.jpg'
                 />
               </a>
-              <div>
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-purple-400 rounded-full'>
-                  ヘッドレスCMS
-                </span>{" "}
-                <span className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-red-400 rounded-full'>
-                  Next.js
-                </span>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>Next.js</SkillTag>
+                <SkillTag spanColor='blue'>Tailwind css</SkillTag>
+                <SkillTag spanColor='purple'>ヘッドレスCMS</SkillTag>
               </div>
               <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
                 APIを取得してデータが表示
