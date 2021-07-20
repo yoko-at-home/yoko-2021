@@ -8,14 +8,16 @@ export const BannerLanding = (props) => {
         backgroundImage: "url('/kota.jpg')",
       }}
     >
-      <div className='inline-flex flex-col my-0 mx-auto'>
-        <span className='inline-block p-1 mb-5 text-4xl font-extrabold text-center text-transparent bg-clip-text bg-opacity-80 bg-gradient-to-r from-green-400 to-blue-800'>
-          {props.title}
-        </span>
-        <span className='inline-block p-1 text-2xl font-bold text-center text-transparent bg-clip-text bg-opacity-80 bg-gradient-to-r from-blue-700 to-green-400'>
-          {props.description}
-          <br />
-        </span>
+      <div className='inline-flex p-10 bg-clip-padding bg-opacity-60 border border-gray-300 backdrop-filter backdrop-blur-xl'>
+        <div className='inline-flex flex-col my-0 mx-auto'>
+          <span className='inline-block p-1 mb-5 text-4xl font-extrabold text-transparent bg-clip-text bg-opacity-90 bg-gradient-to-r from-green-300 to-blue-600'>
+            {props.title}
+          </span>
+          <span className='inline-block p-1 text-2xl font-bold text-transparent bg-clip-text bg-opacity-90 bg-gradient-to-r from-blue-600 to-green-400'>
+            {props.description}
+            <br />
+          </span>
+        </div>
       </div>
     </section>
   );
