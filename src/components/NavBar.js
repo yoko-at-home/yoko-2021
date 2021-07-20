@@ -12,7 +12,7 @@ export const Navbar = () => {
         <div className='container flex flex-wrap justify-between items-center px-4 mx-auto'>
           <div className='flex relative justify-end w-full'>
             <button
-              className='block py-1 px-3 text-xl leading-none text-center bg-clip-padding bg-green-400 bg-opacity-60 rounded-br-full border border-gray-300 border-solid drop-shadow-xl backdrop-filter backdrop-blur-xl cursor-pointer outline-none focus:outline-none'
+              className='block py-1 px-3 text-xl leading-none text-center bg-clip-padding bg-green-400 bg-opacity-60 rounded-br-full drop-shadow-xl backdrop-filter backdrop-blur-xl cursor-pointer outline-none focus:outline-none'
               type='button'
               onClick={handleNavBarOpen}
             >
