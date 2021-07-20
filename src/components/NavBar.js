@@ -12,28 +12,31 @@ export const Navbar = () => {
         <div className='container flex flex-wrap justify-between items-center px-4 mx-auto'>
           <div className='flex relative justify-end w-full'>
             <button
-              className='block py-1 px-3 text-xl leading-none bg-green-500 bg-opacity-90 rounded-br-full border border-transparent border-solid drop-shadow-xl cursor-pointer outline-none focus:outline-none'
+              className='block py-1 px-3 text-xl leading-none text-center bg-clip-padding bg-green-400 bg-opacity-60 rounded-br-full border border-gray-300 border-solid drop-shadow-xl backdrop-filter backdrop-blur-xl cursor-pointer outline-none focus:outline-none'
               type='button'
               onClick={handleNavBarOpen}
             >
-              <span role='img' aria-label='sparkles animate-pulse'>
+              <span role='img' aria-label='sparkles'>
                 ✨
               </span>
-              <span className='ml-2 text-xs text-white animate-pulse'>
-                メニュー
+              <span className='ml-2 text-xs font-bold text-white animate-bounce'>
+                メニュー&nbsp;
               </span>
-              <span role='img' aria-label='sparkles animate-pulse'>
+              <span role='img' aria-label='sparkles'>
                 ✨
               </span>
             </button>
           </div>
           <div
             className={
-              "flex-grow items-center lg:bg-opacity-60 lg:shadow-none backdrop-opacity-80 backdrop-filter backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white " +
+              "flex-grow items-center lg:bg-opacity-60 lg:shadow-none backdrop-opacity-80 backdrop-filter backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white" +
               (isNavbarOpen ? " block" : " hidden")
             }
             id='example-navbar-warning'
-            style={{ backgroundColor: "rgba(15, 10, 80, .6)" }}
+            style={{
+              backgroundColor: "rgba(15, 10, 80, .6)",
+              border: "solid 1px rgba(15, 10, 80, .9)",
+            }}
           >
             <ul className='flex flex-col mx-auto lg:ml-auto list-none'>
               <li className='flex mx-auto'>
