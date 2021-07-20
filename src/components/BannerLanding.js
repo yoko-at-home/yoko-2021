@@ -9,10 +9,10 @@ export const BannerLanding = (props) => {
       }}
     >
       <div className='inline-flex flex-col my-0 mx-auto'>
-        <span className='inline-block p-1 mb-5 text-4xl font-extrabold text-center bg-purple-900 bg-opacity-50 rounded animate-pulse'>
+        <span className='inline-block p-1 mb-5 text-4xl font-extrabold text-center text-transparent bg-clip-text bg-opacity-80 bg-gradient-to-r from-green-400 to-blue-800'>
           {props.title}
         </span>
-        <span className='inline-block p-1 text-2xl font-black text-center bg-purple-900 bg-opacity-50 rounded animate-pulse'>
+        <span className='inline-block p-1 text-2xl font-bold text-center text-transparent bg-clip-text bg-opacity-80 bg-gradient-to-r from-blue-700 to-green-400'>
           {props.description}
           <br />
         </span>
