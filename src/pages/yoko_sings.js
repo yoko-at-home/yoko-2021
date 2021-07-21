@@ -86,7 +86,7 @@ const yokosings = () => {
             desc={"ポレポーレ"}
           />
           <div className='my-3'>
-            <SkillTagSolid spanColor='green'>iMovie</SkillTagSolid>
+            <SkillTagSolid spanColor='green'>Illustrator</SkillTagSolid>
           </div>
         </div>
       </div>
