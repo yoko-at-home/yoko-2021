@@ -46,8 +46,9 @@ const yokosings = () => {
               このシニア世代の合唱団のメンバーも、私の目には、情熱にあふれる魅力的な人々としか映りません。私たちは、姿は経年の変化に晒されても、心には、いつまでも変わらぬ情熱を秘めているものです。そんな気持ちをアニメーションアバターにしてみました。
               <br />
               もちろん、このサイトと動画で、大変盛り上がりました。
-              招待状のデザイン
-              も任せていただき、初めてのIllustrator制作で入稿も果たしました。制作物内容のやりとりにNotionを導入し、地域のシニア世代にもITの恩恵が届く活動を続けたいと存じます。
+              招待状やプログラムのデザイン
+              も任せていただき、初めてのIllustrator制作で入稿も果たしました。制作物内容のやりとりにNotionを導入し、地域の50
+              <sup>++</sup>ともITの恩恵を享受したいと思っています。
             </p>
           </div>
         </div>
@@ -65,10 +66,34 @@ const yokosings = () => {
               <SkillTagSolid spanColor='green'>iMovie</SkillTagSolid>
             </div>
           </div>
-          <p className='mb-5'>
-            さあ、御伽の国へ一っ飛び
+          <h2 className='mt-20 mb-10 text-3xl'>さあ、御伽の国へ一っ飛び</h2>
+          <p className='mt-10 mb-5'>
             <span role='img' aria-label='sparkles'>
-              ✨
+              ✨ファーストコンサートプログラム✨
+            </span>
+          </p>
+          <ImageShrink
+            width={900}
+            height={430}
+            src={"/images/pic_polepole_program1.jpg"}
+            alt={"ポレポーレファーストコンサートプログラム"}
+            desc={"ポレポーレファーストコンサートプログラムご挨拶"}
+          />
+          <p className='m-5'>
+            <span role='img' aria-label='sparkles'>
+              {/* ✨ */}
+            </span>
+          </p>
+          <ImageShrink
+            width={900}
+            height={430}
+            src={"/images/pic_polepole_program2.jpg"}
+            alt={"ポレポーレファーストコンサートプログラム"}
+            desc={"ポレポーレファーストコンサートプログラム演目"}
+          />
+          <p className='mt-10 mb-5'>
+            <span role='img' aria-label='sparkles'>
+              ✨ご招待状✨
             </span>
           </p>
           <ImageShrink
@@ -78,6 +103,11 @@ const yokosings = () => {
             alt={"ポレポーレ"}
             desc={"ポレポーレ"}
           />
+          <p className='m-5'>
+            <span role='img' aria-label='sparkles'>
+              {/* ✨ */}
+            </span>
+          </p>
           <ImageShrink
             width={700}
             height={500}
