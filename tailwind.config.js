@@ -3,7 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ["Kaisei opti", "Open Sans", "Arial", "sans-serif"],
+      sans: [
+        "Tangerine",
+        "cursive",
+        "Kaisei opti",
+        "Open Sans",
+        "Arial",
+        "sans-serif",
+      ],
     },
     extend: {},
   },
