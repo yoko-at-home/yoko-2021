@@ -4,6 +4,7 @@ import { SkillTag } from "../components/atom/SkillTag";
 import { BannerLanding } from "../components/BannerLanding";
 import { Layout } from "../components/Layout";
 
+
 const websites = () => {
   return (
     <Layout>
@@ -54,6 +55,96 @@ const websites = () => {
           </div>
 
           <div className='grid grid-cols-12 gap-x-8 gap-y-16 sm:px-5 pb-10'>
+            <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
+              <a
+                href='https://catterycanon.vercel.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='block'
+              >
+                <Image
+                  width={700}
+                  height={500}
+                  alt='Cattery Cannon(仮)'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
+                  src='/pic_microcms.jpg'
+                />
+              </a>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>Next.js</SkillTag>
+                <SkillTag spanColor='blue'>Tailwind css</SkillTag>
+                <SkillTag spanColor='purple'>ヘッドレスCMS</SkillTag>
+              </div>
+              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
+                APIを取得してデータが表示
+                <span role='img' aria-label='sparkles'>
+                  ✨
+                </span>
+              </h2>
+              <p
+                id='blog'
+                className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '
+              >
+                Tailwindならレスポンシブも驚くほど簡単。メディアクエリでかなりレスポンシブ対応ができるようになりましたが、ライブラリーを使用すれば、開発時間をグッと短縮できます。
+                <a href='https://microcms.io/'>MicroCMS</a>
+                のブログって本当によくできているのです。こちらは今後作成予定のメインクーンのブログサイト構築の技術検証に作ったテストサイト。そしてNext.jsのページ遷移の楽なこと！たった半年くらいの間に、どんどん便利な技術が世に送り出されてきます。メルカリサイトのクローンで四苦八苦した認証も、便利なサービスがいくつもあることを知りました。プログラミング、走るのを忘れたらあっという間に置いてきぼりになりそうです。
+              </p>
+              <p className='pt-2 text-xs font-medium'>
+                <a
+                  href='https://catterycanon.vercel.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='mr-1 underline'
+                >
+                  Cattery Canon(仮)
+                </a>{" "}
+                制作：<span className='mx-1'>June 2021</span>
+              </p>
+            </div>
+
+            <div
+              id='choco'
+              className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'
+            >
+              <a
+                href='https://chocolate-react.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='block'
+              >
+                <Image
+                  width={700}
+                  height={500}
+                  alt='ショコラピアノ教室'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg shadow-sm'
+                  src='/pic_piano02.jpg'
+                />
+              </a>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>React</SkillTag>
+                <SkillTag spanColor='blue'>素のCSS</SkillTag>
+                <SkillTag spanColor='purple'>Netlify</SkillTag>
+              </div>
+              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
+                Reactサイトが作ってみたくて。
+              </h2>
+              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
+                素のCSSのは柔軟ですが、レスポンシブ対応に苦しみました。また使用できる画像が、既存のWebサイトのものという制約があり、サイトの魅力を存分に引き出す画像についてよくよく考えさせられました。プロの画像を扱ったサイトを作ってみたいなと思った作品です。
+                そして、ここまで作っておきながら、実は完成していない残念な作品です。Webサイトは、コーディングするのもまぁまぁ大変ですが、サイトを作りたい側の負担もかなり大きいですね。趣味を越えたいのであれば、情報を引き出すスキルも求められます。
+              </p>
+              <p className='pt-2 text-xs font-medium'>
+                <a
+                  href='https://chocolate-react.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='mr-1 underline'
+                >
+                  ショコラピアノ教室
+                </a>{" "}
+                制作：<span className='mx-1'>November 2020</span>
+              </p>
+            </div>
+
             <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
               <a href='#_' className='block'>
                 <Image
@@ -127,96 +218,6 @@ const websites = () => {
                   座間駅周辺美味しいところ
                 </a>{" "}
                 制作：<span className='mx-1'>May 2020</span>
-              </p>
-            </div>
-
-            <div
-              id='choco'
-              className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'
-            >
-              <a
-                href='https://chocolate-react.netlify.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='block'
-              >
-                <Image
-                  width={700}
-                  height={500}
-                  alt='ショコラピアノ教室'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg shadow-sm'
-                  src='/pic_piano02.jpg'
-                />
-              </a>
-              <div className='flex flex-row'>
-                <SkillTag spanColor='red'>React</SkillTag>
-                <SkillTag spanColor='blue'>素のCSS</SkillTag>
-                <SkillTag spanColor='purple'>Netlify</SkillTag>
-              </div>
-              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
-                Reactサイトが作ってみたくて。
-              </h2>
-              <p className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '>
-                素のCSSのは柔軟ですが、レスポンシブ対応に苦しみました。また使用できる画像が、既存のWebサイトのものという制約があり、サイトの魅力を存分に引き出す画像についてよくよく考えさせられました。プロの画像を扱ったサイトを作ってみたいなと思った作品です。
-                そして、ここまで作っておきながら、実は完成していない残念な作品です。Webサイトは、コーディングするのもまぁまぁ大変ですが、サイトを作りたい側の負担もかなり大きいですね。趣味を越えたいのであれば、情報を引き出すスキルも求められます。
-              </p>
-              <p className='pt-2 text-xs font-medium'>
-                <a
-                  href='https://chocolate-react.netlify.app/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mr-1 underline'
-                >
-                  ショコラピアノ教室
-                </a>{" "}
-                制作：<span className='mx-1'>November 2020</span>
-              </p>
-            </div>
-
-            <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
-              <a
-                href='https://catterycanon.vercel.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='block'
-              >
-                <Image
-                  width={700}
-                  height={500}
-                  alt='Cattery Cannon(仮)'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
-                  src='/pic_microcms.jpg'
-                />
-              </a>
-              <div className='flex flex-row'>
-                <SkillTag spanColor='red'>Next.js</SkillTag>
-                <SkillTag spanColor='blue'>Tailwind css</SkillTag>
-                <SkillTag spanColor='purple'>ヘッドレスCMS</SkillTag>
-              </div>
-              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
-                APIを取得してデータが表示
-                <span role='img' aria-label='sparkles'>
-                  ✨
-                </span>
-              </h2>
-              <p
-                id='blog'
-                className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '
-              >
-                Tailwindならレスポンシブも驚くほど簡単。メディアクエリでかなりレスポンシブ対応ができるようになりましたが、ライブラリーを使用すれば、開発時間をグッと短縮できます。
-                <a href='https://microcms.io/'>MicroCMS</a>
-                のブログって本当によくできているのです。こちらは今後作成予定のメインクーンのブログサイト構築の技術検証に作ったテストサイト。そしてNext.jsのページ遷移の楽なこと！たった半年くらいの間に、どんどん便利な技術が世に送り出されてきます。メルカリサイトのクローンで四苦八苦した認証も、便利なサービスがいくつもあることを知りました。プログラミング、走るのを忘れたらあっという間に置いてきぼりになりそうです。
-              </p>
-              <p className='pt-2 text-xs font-medium'>
-                <a
-                  href='https://catterycanon.vercel.app/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mr-1 underline'
-                >
-                  Cattery Canon(仮)
-                </a>{" "}
-                制作：<span className='mx-1'>June 2021</span>
               </p>
             </div>
 
