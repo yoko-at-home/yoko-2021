@@ -17,7 +17,7 @@ const movie = "/pic_misc_movie.jpg";
 const miscellaneous = () => {
   return (
     <Layout>
-      <BannerLanding title='いろいろ' description='次々生まれた楽しい子たち' />
+      <BannerLanding title='いろいろ' description='楽しい子たち' />
       {/* <!-- Section 1 --> */}
       <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
         <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
