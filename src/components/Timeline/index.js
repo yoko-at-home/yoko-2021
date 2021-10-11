@@ -1,18 +1,20 @@
 import Link from "next/link";
 
-import { SkillTagSolid } from "../components/atom/SkillTag";
+import { ButtonSmall } from "../atom/Button";
+import { SkillTagSolid } from "../atom/SkillTag";
+import { BannerLanding } from "../BannerLanding";
+import { Layout } from "../Layout";
+import { TimelineStart } from "./TimelineStart";
+import { TimelineTop } from "./TimelineTop";
 import {
   TimelineVerticalBorder,
   TimelineVerticalBorderLast,
-} from "../components/atom/TimelineVerticalBorder";
-import { BannerLanding } from "../components/BannerLanding";
-import { ButtonSmall } from "./atom/Button";
-import { Layout } from "./Layout";
+} from "./TimelineVerticalBorder";
 
 export const Timeline = () => {
   return (
     <Layout>
-      <BannerLanding title='スキルまとめ' description='思えば遠くまで...' />
+      <BannerLanding title='沿革' description='思えば遠くまで...' />
 
       <div
         className='container justify-start mx-auto mt-36 w-full min-h-screen rounded'
@@ -21,20 +23,72 @@ export const Timeline = () => {
             "linear-gradient(180deg, rgba(2,9,66,1) 4%, rgba(6,85,92,1) 56%",
         }}
       >
-        {/*Set1 */}
         <div className='overflow-hidden relative left-0 flex-wrap px-10 h-full'>
-          <div className='flex justify-between items-center mb-5 w-full'>
+          <TimelineTop />
+          {/* start of Set5 */}
+          {/* <!-- right timeline --> */}
+          <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
-            <div className='flex z-20 order-1 items-center w-16 h-16 bg-gray-300 rounded-full shadow-xl'>
-              <TimelineVerticalBorder />
-              <h3 className='z-50 mx-auto text-lg font-semibold tracking-tighter leading-4 text-green-800 whitespace-nowrap'>
-                2021
-                <br />
-                <span className='text-xs tracking-widest'>&nbsp;現 在</span>
+            <div className='flex relative z-20 order-1'>
+              <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
+                November
               </h3>
             </div>
-            <div className='order-1 py-4 px-6 w-5/12 rounded-lg'></div>
+            <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
+                Maincoonブリーダー様のサイト構築に向けて準備中
+              </h3>
+              <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
+                使用技術：
+                <SkillTagSolid spanColor='red'>Next.js</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>Tailwind css</SkillTagSolid>
+                <SkillTagSolid spanColor='yellow'>TypeScript</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>
+                  Vercel + Netlify
+                </SkillTagSolid>
+              </p>
+              {/* <ButtonSmall src='https://github.com/yoko-at-home/yoko-2021'>
+                To GitHub
+              </ButtonSmall> */}
+            </div>
           </div>
+
+          {/* <!-- left timeline --> */}
+          <div className='flex flex-row md:flex-row-reverse justify-between items-center mb-5 w-full'>
+            <div className='order-1 w-5/12'></div>
+            <TimelineVerticalBorder />
+            <TimelineVerticalBorder />
+            <div className='flex relative z-20 order-1'>
+              <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
+                September
+              </h3>
+            </div>
+            <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
+              <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
+                <Link href='/websites#blog'>コーポレートサイト構築検証中</Link>
+              </h3>
+              <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
+                使用技術：
+                <SkillTagSolid spanColor='red'>Next.js</SkillTagSolid>
+                <SkillTagSolid spanColor='blue'>Tailwind css</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>microCMS</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>auth0</SkillTagSolid>
+                <SkillTagSolid spanColor='purple'>SendGrid</SkillTagSolid>
+                <br />
+                コーポレートサイト構築の打診を受け、技術検証中。お問い合わせメールの送信処理にSendGrid、会員登録処理にAuth0の導入すべく作業中。<br/>
+                パフォーマンス、SEOに強い高性能のJavaScriptサイトをスタートアップの企業さま、個人事業主さまなど、必要な方に適正な価格でお届けできるように、
+                テンプレート化も同時に進行中です。
+              </p>
+              <ButtonSmall src=''>
+                現在 GitHubでのコードは公開していません
+              </ButtonSmall>
+            </div>
+          </div>
+        </div>
+        {/* end of Set5 */}
+
+        {/* start of Set4*/}
+        <div className='overflow-hidden relative left-0 flex-wrap px-10 h-full'>
           {/* <!-- right timeline --> */}
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
@@ -104,8 +158,9 @@ export const Timeline = () => {
             </div>
           </div>
         </div>
+        {/* start of Set4 */}
 
-        {/* Set2 */}
+        {/* start of Set3 */}
         <div className='overflow-hidden relative left-0 flex-wrap px-10 h-full'>
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
@@ -177,8 +232,9 @@ export const Timeline = () => {
             </div>
           </div>
         </div>
+        {/* start of Set3*/}
 
-        {/* Set3 */}
+        {/* start of Set2 */}
         <div className='overflow-hidden relative left-0 flex-wrap px-10 h-full'>
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
@@ -222,7 +278,7 @@ export const Timeline = () => {
             <div className='order-1 w-5/12'></div>
             <TimelineVerticalBorder />
             <div className='flex relative z-20 order-1'>
-              <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
+              <h3 className='absolute -left-6 px-2 text-lg font-semibold text-green-100 whitespace-nowrap bg-gray-900 rounded-full shadow-xl'>
                 2021
               </h3>
             </div>
@@ -249,8 +305,9 @@ export const Timeline = () => {
             </div>
           </div>
         </div>
+        {/* end of Set2 */}
 
-        {/* Set4 */}
+        {/* start of Set1 */}
         <div className='overflow-hidden relative left-0 flex-wrap px-10 h-full'>
           <div className='flex justify-between items-center mb-8 w-full'>
             <div className='order-1 w-5/12'></div>
@@ -315,17 +372,8 @@ export const Timeline = () => {
             </div>
           </div>
         </div>
-          <div className='flex justify-between items-center mb-36 w-full'>
-            <div className='order-1 w-5/12'></div>
-            <div className='flex z-20 order-1 items-center mb-36 w-16 h-16 bg-gray-300 rounded-full shadow-xl '>
-              <h3 className='z-50 mx-auto text-lg font-semibold tracking-wide leading-4 text-green-800 whitespace-nowrap'>
-                2020
-                <br />
-                <span className='text-xs tracking-tight'>学習開始</span>
-              </h3>
-            </div>
-            <div className='order-1 py-4 px-6 w-5/12 rounded-lg'></div>
-          </div>
+        {/* end of Set1 */}
+        <TimelineStart />
       </div>
     </Layout>
   );
