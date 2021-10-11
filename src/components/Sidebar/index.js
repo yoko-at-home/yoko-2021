@@ -14,23 +14,21 @@ export const Sidebar = () => {
           <ul className='flex flex-col list-none'>
             <li className='flex'>
               <Link href='/'>
-                <a className='flex p-3 text-xs font-bold text-left text-white hover:text-yellow-400 uppercase'>
+                <a className='flex p-3 text-xs font-bold tracking-widest text-left text-white hover:text-yellow-400'>
                   <span className='py-3 ml-2 text-yellow-100'>ホーム</span>
                 </a>
               </Link>
             </li>
             <li className='flex'>
               <Link href='/skills'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
-                  <span className='py-3 ml-2 text-yellow-100'>
-                    スキルまとめ
-                  </span>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
+                  <span className='py-3 ml-2 text-yellow-100'>沿革</span>
                 </a>
               </Link>
             </li>
             <li className='flex'>
               <Link href='/programming'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-white hover:text-yellow-400 uppercase'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
                   <span className='py-3 ml-2 text-yellow-100'>
                     プログラミング
                   </span>
@@ -39,14 +37,14 @@ export const Sidebar = () => {
             </li>
             <li className='flex'>
               <Link href='/websites'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
                   <span className='py-3 ml-2 text-yellow-100'>Webサイト</span>
                 </a>
               </Link>
             </li>
             <li className='flex'>
               <Link href='/community'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
                   <span className='py-3 ml-2 text-yellow-100'>
                     ２つのコミュニティ
                   </span>
@@ -55,21 +53,21 @@ export const Sidebar = () => {
             </li>
             <li className='flex'>
               <Link href='/language'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
                   <span className='py-3 ml-2 text-yellow-100'>語学</span>
                 </a>
               </Link>
             </li>
             <li className='flex'>
               <Link href='/yoko_sings'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
                   <span className='py-3 ml-2 text-yellow-100'>歌</span>
                 </a>
               </Link>
             </li>
             <li className='flex'>
               <Link href='/miscellaneous'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
                   <span className='py-3 ml-2 text-yellow-100'>いろいろ</span>
                 </a>
               </Link>

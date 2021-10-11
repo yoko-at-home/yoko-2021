@@ -8,7 +8,7 @@ import { Layout } from "../components/Layout";
 const websites = () => {
   return (
     <Layout>
-      <BannerLanding title='Webサイト' description='試行錯誤' />
+      <BannerLanding title='Webサイト' description='現在、webサイトの制作はご紹介のあった方のみ制作させていただいております' />
       {/* <!-- Section 1 --> */}
       <section id='top'>
         <div className='py-6 sm:py-8 md:py-12 px-5 mx-auto space-y-5 sm:space-y-8 md:space-y-16 w-full max-w-7xl'>
