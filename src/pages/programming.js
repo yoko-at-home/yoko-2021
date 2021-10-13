@@ -9,7 +9,9 @@ const programming = () => {
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto mt-36'>
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className='flex flex-col lg:order-1 justify-center mb-20 text-center'>
-          <h3 id="sakuraipiano" className='mb-8 text-4xl'>【はじめてのWebサイト】</h3>
+          <h3 id='sakuraipiano' className='mb-8 text-4xl'>
+            【はじめてのWebサイト】
+          </h3>
           <a
             href={"https://sakuraipiano.com"}
             target='_blank'
@@ -88,7 +90,7 @@ const programming = () => {
             Reactを始めたら、Twitterでピータンに声をかけていただきました。そして、
             <a href='https://over40webclub.neltify.app'>Over 40 Web Club</a>
             が誕生しました。Reactレッスンが終わり、今後どのように学習を継続すべきか考えていた時に、
-            <a href='https://itkingdom.com'>IT KINGDOM</a>
+            <a href='https://it-kingdom.com/'>IT KINGDOM</a>
             というコミュニティができたことを知りました。出会いとは不思議です。
           </p>
         </div>
