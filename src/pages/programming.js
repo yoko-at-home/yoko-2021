@@ -88,9 +88,23 @@ const programming = () => {
             S3からRoute53を使ってリリースした頃、Twitterで声をかけられました。React学びませんか？講師はカナダ在住の現役駆け出しエンジニア。
             Reactなにそれ？は？状態の私でしたが、なんだか若い方々が夢中に追いかけているものの世界を覗いてみたくて、よろしくお願いします♪なんて軽いノリで始めちゃいました。
             Reactを始めたら、Twitterでピータンに声をかけていただきました。そして、
-            <a href='https://over40webclub.neltify.app'>Over 40 Web Club</a>
+            <a
+              href='https://over40webclub.neltify.app'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-yellow-700'
+            >
+              Over 40 Web Club{" "}
+            </a>
             が誕生しました。Reactレッスンが終わり、今後どのように学習を継続すべきか考えていた時に、
-            <a href='https://it-kingdom.com/'>IT KINGDOM</a>
+            <a
+              href='https://it-kingdom.com/'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-yellow-700'
+            >
+              IT KINGDOM{" "}
+            </a>
             というコミュニティができたことを知りました。出会いとは不思議です。
           </p>
         </div>
@@ -159,6 +173,7 @@ const programming = () => {
               href='https://dokugaku-engineer.com/'
               target='_blank'
               rel='noopener noreferrer'
+              
             >
               <Button>独学エンジニア</Button>
             </a>
