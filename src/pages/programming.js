@@ -89,7 +89,7 @@ const programming = () => {
             Reactなにそれ？は？状態の私でしたが、なんだか若い方々が夢中に追いかけているものの世界を覗いてみたくて、よろしくお願いします♪なんて軽いノリで始めちゃいました。
             Reactを始めたら、Twitterでピータンに声をかけていただきました。そして、
             <a
-              href='https://over40webclub.neltify.app'
+              href='https://over40webclub.netlify.app/'
               target='_blank'
               rel='noreferrer'
               className='hover:text-yellow-700'
@@ -173,7 +173,6 @@ const programming = () => {
               href='https://dokugaku-engineer.com/'
               target='_blank'
               rel='noopener noreferrer'
-              
             >
               <Button>独学エンジニア</Button>
             </a>
