@@ -8,7 +8,10 @@ import { Layout } from "../components/Layout";
 const websites = () => {
   return (
     <Layout>
-      <BannerLanding title='Webサイト' description='現在、webサイトの制作はご紹介のあった方のみ制作させていただいております' />
+      <BannerLanding
+        title='Webサイト'
+        description='現在、webサイトの制作はご紹介のあった方のみ制作させていただいております'
+      />
       {/* <!-- Section 1 --> */}
       <section id='top'>
         <div className='py-6 sm:py-8 md:py-12 px-5 mx-auto space-y-5 sm:space-y-8 md:space-y-16 w-full max-w-7xl'>
@@ -57,7 +60,7 @@ const websites = () => {
           <div className='grid grid-cols-12 gap-x-8 gap-y-16 sm:px-5 pb-10'>
             <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
               <a
-                href='https://catterycanon.vercel.app/'
+                href='https://cattery-canon.vercel.app/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='block'
@@ -67,7 +70,7 @@ const websites = () => {
                   height={500}
                   alt='Cattery Cannon(仮)'
                   className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
-                  src='/pic_microcms.jpg'
+                  src='/pic-microcms.jpg'
                 />
               </a>
               <div className='flex flex-row'>
@@ -87,18 +90,18 @@ const websites = () => {
               >
                 Tailwindならレスポンシブも驚くほど簡単。メディアクエリでかなりレスポンシブ対応ができるようになりましたが、ライブラリーを使用すれば、開発時間をグッと短縮できます。
                 <a href='https://microcms.io/'>MicroCMS</a>
-                のブログって本当によくできているのです。こちらは今後作成予定のメインクーンのブログサイト構築の技術検証に作ったテストサイト。そしてNext.jsのページ遷移の楽なこと！たった半年くらいの間に、どんどん便利な技術が世に送り出されてきます。メルカリサイトのクローンで四苦八苦した認証も、便利なサービスがいくつもあることを知りました。プログラミング、走るのを忘れたらあっという間に置いてきぼりになりそうです。
+                のブログって本当によくできているのです。学んだことをフルに生かし、可愛らしいメインクーンの写真に癒されながら、鋭意作成中。
               </p>
               <p className='pt-2 text-xs font-medium'>
                 <a
-                  href='https://catterycanon.vercel.app/'
+                  href='https://cattery-canon.vercel.app/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='mr-1 underline'
                 >
-                  Cattery Canon(仮)
+                  Cattery Canon(制作中)
                 </a>{" "}
-                制作：<span className='mx-1'>June 2021</span>
+                制作：<span className='mx-1'>October 2021</span>
               </p>
             </div>
 
