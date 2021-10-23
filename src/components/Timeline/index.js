@@ -14,7 +14,7 @@ import {
 export const Timeline = () => {
   return (
     <Layout>
-      <BannerLanding title='沿革' description='思えば遠くまで...' />
+      <BannerLanding title='あゆみ' description='思えば遠くまで...' />
 
       <div
         className='container justify-start mx-auto mt-36 w-full min-h-screen rounded'
@@ -36,7 +36,7 @@ export const Timeline = () => {
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
               <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
-                Maincoonブリーダー様のサイト構築に向けて準備中
+                Maincoonブリーダー様のサイト構築に向けて準備中。
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
@@ -46,6 +46,9 @@ export const Timeline = () => {
                 <SkillTagSolid spanColor='purple'>
                   Vercel + Netlify
                 </SkillTagSolid>
+                <br />
+                <br />
+                10月21〜22日にかけてドラフト完成。画像などのコンテンツ待ち。
               </p>
               {/* <ButtonSmall src='https://github.com/yoko-at-home/yoko-2021'>
                 To GitHub
@@ -75,13 +78,12 @@ export const Timeline = () => {
                 <SkillTagSolid spanColor='purple'>auth0</SkillTagSolid>
                 <SkillTagSolid spanColor='purple'>SendGrid</SkillTagSolid>
                 <br />
-                コーポレートサイト構築の打診を受け、技術検証中。お問い合わせメールの送信処理にSendGrid、会員登録処理にAuth0の導入すべく作業中。<br/>
+                コーポレートサイト構築の打診を受け、技術検証中。お問い合わせメールの送信処理にSendGrid、会員登録処理にAuth0の導入すべく作業中。
+                <br />
                 パフォーマンス、SEOに強い高性能のJavaScriptサイトをスタートアップの企業さま、個人事業主さまなど、必要な方に適正な価格でお届けできるように、
                 テンプレート化も同時に進行中です。
               </p>
-              <ButtonSmall src=''>
-                現在 GitHubでのコードは公開していません
-              </ButtonSmall>
+              <ButtonSmall src=''>GitHubコード非公開</ButtonSmall>
             </div>
           </div>
         </div>

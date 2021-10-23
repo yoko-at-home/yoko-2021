@@ -22,7 +22,7 @@ export const Sidebar = () => {
             <li className='flex'>
               <Link href='/skills'>
                 <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
-                  <span className='py-3 ml-2 text-yellow-100'>沿革</span>
+                  <span className='py-3 ml-2 text-yellow-100'>あゆみ</span>
                 </a>
               </Link>
             </li>
