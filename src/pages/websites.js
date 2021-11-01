@@ -60,7 +60,7 @@ const websites = () => {
           <div className='grid grid-cols-12 gap-x-8 gap-y-16 sm:px-5 pb-10'>
             <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
               <a
-                href='https://cattery-canon.vercel.app/'
+                href='https://canon-cat.com'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='block'
@@ -68,9 +68,9 @@ const websites = () => {
                 <Image
                   width={700}
                   height={500}
-                  alt='Cattery Cannon(仮)'
+                  alt='Cattery Cannon'
                   className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
-                  src='/pic-microcms.jpg'
+                  src='/images/web-canoncat.jpg'
                 />
               </a>
               <div className='flex flex-row'>
@@ -90,7 +90,7 @@ const websites = () => {
               >
                 Tailwindならレスポンシブも驚くほど簡単。メディアクエリでかなりレスポンシブ対応ができるようになりましたが、ライブラリーを使用すれば、開発時間をグッと短縮できます。
                 <a href='https://microcms.io/'>MicroCMS</a>
-                のブログって本当によくできているのです。学んだことをフルに生かし、可愛らしいメインクーンの写真に癒されながら、鋭意作成中。
+                って本当によくできているのです。すっかりファン。学んだことをフルに生かし、可愛らしいメインクーンの写真に癒されながら、とうとう公開まで漕ぎ着けました。
               </p>
               <p className='pt-2 text-xs font-medium'>
                 <a
@@ -99,7 +99,7 @@ const websites = () => {
                   rel='noopener noreferrer'
                   className='mr-1 underline'
                 >
-                  Cattery Canon(制作中)
+                  Cattery Canon
                 </a>{" "}
                 制作：<span className='mx-1'>October 2021</span>
               </p>
