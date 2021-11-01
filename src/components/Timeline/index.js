@@ -68,7 +68,7 @@ export const Timeline = () => {
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
               <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
-                <Link href='/websites#blog'>コーポレートサイト構築検証中</Link>
+                <Link href='/websites#blog'>コーポレートサイト構築検証</Link>
               </h3>
               <p className='text-sm font-medium tracking-wide leading-snug text-gray-800 text-opacity-100'>
                 使用技術：
@@ -78,10 +78,12 @@ export const Timeline = () => {
                 <SkillTagSolid spanColor='purple'>auth0</SkillTagSolid>
                 <SkillTagSolid spanColor='purple'>SendGrid</SkillTagSolid>
                 <br />
-                コーポレートサイト構築の打診を受け、技術検証中。お問い合わせメールの送信処理にSendGrid、会員登録処理にAuth0の導入すべく作業中。
-                <br />
-                パフォーマンス、SEOに強い高性能のJavaScriptサイトをスタートアップの企業さま、個人事業主さまなど、必要な方に適正な価格でお届けできるように、
-                テンプレート化も同時に進行中です。
+                <p className='text-xs'>
+                  コーポレートサイト構築の打診を受け、技術検証。お問い合わせメールの送信処理にSendGrid、ログイン処理にAuth0を検証。
+                  <br />
+                  パフォーマンス、SEOに強い高性能のJavaScriptサイトを、必要な方に適正な価格でお届けできるように、
+                  テンプレート化も同時に進行中。
+                </p>
               </p>
               <ButtonSmall src=''>GitHubコード非公開</ButtonSmall>
             </div>
@@ -112,11 +114,13 @@ export const Timeline = () => {
                   Vercel + Netlify
                 </SkillTagSolid>
                 <br />
-                開発環境をNetlify、本番環境をVercelに置く。
-                SEO、OGP、問い合わせフォーム、 言語属性に対応。
-                Lighthouseパフォーマンススコア98点。JSXの記法についてはほぼマスター。TypeScriptは学習を開始した程度。CLIはかなり自由に使えつつある。
-                <br />
-                今後の課題：グローバルな状態の保持、現状のスキルはプログラミング全般で基本概念を抑えた程度であり、props、stateの管理など全般により早く正確に実装するスキルが望まれる。OGPはページごとのmetaデータの出しわけが要学習。
+                <span className='text-xs'>
+                  開発環境をNetlify、本番環境をVercelに置く。
+                  SEO、OGP、問い合わせフォーム、 言語属性に対応。
+                  Lighthouseパフォーマンススコア98点。JSXの記法についてはほぼマスター。TypeScriptは学習を開始した程度。CLIはかなり自由に使えつつある。
+                  <br />
+                  今後の課題：グローバルな状態の保持、現状のスキルはプログラミング全般で基本概念を抑えた程度であり、props、stateの管理など全般により早く正確に実装するスキルが望まれる。OGPはページごとのmetaデータの出しわけが要学習。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/yoko-2021'>
                 To GitHub
@@ -144,15 +148,17 @@ export const Timeline = () => {
                 <SkillTagSolid spanColor='blue'>Tailwind css</SkillTagSolid>
                 <SkillTagSolid spanColor='purple'>microCMS</SkillTagSolid>
                 <br />
-                ブログサイト構築の打診を受け、技術検証を実施。APIを取得してデータを更新できることを確認する。フルスクラッチでループ処理などを実装する実力はないが
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://blog.microcms.io/microcms-next-jamstack-blog'
-                >
-                  公式サイトのブログ
-                </a>
-                などの具体的なコードが示された場合は、実装してスタイリングが可能。課題：行間やマージンの取り方など。
+                <span className='text-xs'>
+                  ブログサイト構築の打診を受け、技術検証を実施。APIを取得してデータを更新できることを確認する。フルスクラッチでループ処理などを実装する実力はないが
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://blog.microcms.io/microcms-next-jamstack-blog'
+                  >
+                    公式サイトのブログ
+                  </a>
+                  などの具体的なコードが示された場合は、実装してスタイリングが可能。課題：行間やマージンの取り方など。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
@@ -194,9 +200,11 @@ export const Timeline = () => {
                   Vercel + Firebase
                 </SkillTagSolid>
                 <br />
-                オンラインコミュニティイベントでメンバーからのお題を投稿するためにアプリにチャレンジ。ローカルストレージにメモを登録するコードを参照して、フロントの実装を進めたが、複数人による投稿を可能にするためにFirebaseでバックエンド処理を実装した。
-                実際にはバックエンド処理は自力ではできず、現役エンジニアとの初の共同開発となった。ブランチを切って開発する実践を経験。アプリとして多くの課題があったものの、制作からデプロイまで1週間以内で完成にこぎつけ、プログラミングに自信を得た作品。これを機に、素のCSSでの実装に課題を感じる。
-                バックエンド（DB）の設計がアプリに与えるインパクトについて実例を持って理解。
+                <span className='text-xs'>
+                  オンラインコミュニティイベントでメンバーからのお題を投稿するためにアプリにチャレンジ。ローカルストレージにメモを登録するコードを参照して、フロントの実装を進めたが、複数人による投稿を可能にするためにFirebaseでバックエンド処理を実装した。
+                  実際にはバックエンド処理は自力ではできず、現役エンジニアとの初の共同開発となった。ブランチを切って開発する実践を経験。アプリとして多くの課題があったものの、制作からデプロイまで1週間以内で完成にこぎつけ、プログラミングに自信を得た作品。これを機に、素のCSSでの実装に課題を感じる。
+                  バックエンド（DB）の設計がアプリに与えるインパクトについて実例を持って理解。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/qin_bulletin-board/'>
                 To GitHub
@@ -226,7 +234,9 @@ export const Timeline = () => {
                   Material UI + 素のCSS
                 </SkillTagSolid>
                 <SkillTagSolid spanColor='purple'>Netlify</SkillTagSolid>
-                過去の出来事を物語調に語るために作ったアプリ。過去のJavaScriptのコードをReactに応用。スムーズスクロール、React-mouse-particleなど、美しくて便利なライブラリを知る。
+                <span className='text-xs'>
+                  過去の出来事を物語調に語るために作ったアプリ。過去のJavaScriptのコードをReactに応用。スムーズスクロール、React-mouse-particleなど、美しくて便利なライブラリを知る。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
@@ -266,8 +276,10 @@ export const Timeline = () => {
                   Vercel + Firebase
                 </SkillTagSolid>
                 <br />
-                はむさんのUdemyの井戸端会議アプリの講座を受講してほぼそのまま使用しています。
-                オンラインイベントで過去３回使用された経験があり、その度ごとに模様替え、その後質問が分かりにくなどの課題があり、質問にチェックを入れると質問タブに表示されるように進化を重ねています。
+                <span className='text-xs'>
+                  はむさんのUdemyの井戸端会議アプリの講座を受講してほぼそのまま使用しています。
+                  オンラインイベントで過去３回使用された経験があり、その度ごとに模様替え、その後質問が分かりにくなどの課題があり、質問にチェックを入れると質問タブに表示されるように進化を重ねています。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/qin_bulletin-board/'>
                 To GitHub
@@ -298,8 +310,11 @@ export const Timeline = () => {
                   Netlify+ Heroku
                 </SkillTagSolid>
                 <br />
-                初めてReactを知り、html/cssでクローンしたサイトをjsx化。ログイン、データベース処理（PostgresQL）を学ぶ。Reactの基礎、json,
-                jwt, async awaitなどの構文,ローカルストレージなど広く浅く学ぶ。
+                <span className='text-xs'>
+                  初めてReactを知り、html/cssでクローンしたサイトをjsx化。ログイン、データベース処理（PostgresQL）を学ぶ。Reactの基礎、json,
+                  jwt, async
+                  awaitなどの構文,ローカルストレージなど広く浅く学ぶ。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
@@ -337,7 +352,9 @@ export const Timeline = () => {
                   Netlify(お問合せフォーム)
                 </SkillTagSolid>
                 <br />
-                学びたてのReactを使ってみたくてサイトを作成。さまざまなミニアプリを量産していた時期。お問合せフォームの実装に苦労しました。Netlifyではお問合せフォームが無料で設置できるため、練習してみました。
+                <span className='text-xs'>
+                  学びたてのReactを使ってみたくてサイトを作成。さまざまなミニアプリを量産していた時期。お問合せフォームの実装に苦労しました。Netlifyではお問合せフォームが無料で設置できるため、練習してみました。
+                </span>
               </p>
               <ButtonSmall src='https://github.com/yoko-at-home/chocolatepiano_react'>
                 To GitHub
@@ -366,7 +383,9 @@ export const Timeline = () => {
                   AWS (S3/Route53)
                 </SkillTagSolid>
                 <br />
-                Progate、ドットインストールで独学を開始。初めてのWebサイトをネットで見つけたBootstrapテンプレートを用いて作成。AWSのS3にホスティングし、Route53でルーティングをしてみた。AWSを剪定したのは、前職でのサービスがAWSを使用しており、離職後も理解を深めてみたいという思いが強かったため。
+                <span className='text-xs'>
+                  Progate、ドットインストールで独学を開始。初めてのWebサイトをネットで見つけたBootstrapテンプレートを用いて作成。AWSのS3にホスティングし、Route53でルーティングをしてみた。AWSを剪定したのは、前職でのサービスがAWSを使用しており、離職後も理解を深めてみたいという思いが強かったため。
+                </span>
               </p>
               {/* <ButtonSmall src='https://github.com/yoko-at-home/next-microcms'>
                 To GitHub
