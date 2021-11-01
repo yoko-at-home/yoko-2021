@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { ButtonSmall } from "../atom/Button";
@@ -36,7 +37,7 @@ export const Timeline = () => {
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
               <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
-                Maincoonブリーダー様のサイト構築に向けて準備中。
+                Maincoonブリーダー様のサイトの制作および公開
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
@@ -46,13 +47,32 @@ export const Timeline = () => {
                 <SkillTagSolid spanColor='purple'>
                   Vercel + Netlify
                 </SkillTagSolid>
-                <br />
-                <br />
-                10月21〜22日にかけてドラフト完成。画像などのコンテンツ待ち。
               </p>
               {/* <ButtonSmall src='https://github.com/yoko-at-home/yoko-2021'>
                 To GitHub
               </ButtonSmall> */}
+              <div className='flex flex-col justify-between sm:p-3 text-xs text-gray-600'>
+                <p className='pb-3'>
+                  ご希望の多いお問い合わせ機能と依頼主さま本人が投稿できるシステム。Google
+                  Analytics導入によるさらなるパフォーマンス改善を実現が可能になりました。
+                </p>
+                <div className='flex flex-col sm:flex-row justify-between'>
+                  <Image
+                    src='/images/ayumi-seo.jpg'
+                    alt='Lighthouse performace score'
+                    width='100px'
+                    height='100px'
+                  />
+                  <a href='canon-cat.com' target='_blank' rel='noreferrer'>
+                    <Image
+                      src='/images/web-canoncat.jpg'
+                      alt='canon-catへのリンク'
+                      width='150px'
+                      height='100px'
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
