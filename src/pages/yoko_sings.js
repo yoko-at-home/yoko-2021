@@ -57,7 +57,7 @@ const yokosings = () => {
               title='ポレポーレ第一回演奏会ご案内'
               width='100%'
               height='615px'
-              src='https://www.youtube.com/embed/rj49jZymIcM'
+              src='https://www.youtube.com/embed/GAhSsJVeUvc'
               frameBorder='0'
               allowFullScreen
             />
