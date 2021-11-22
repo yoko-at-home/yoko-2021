@@ -97,7 +97,7 @@ export const Navbar = () => {
                 <Link href='/yoko_sings'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
-                      歌
+                      歌とデザイン
                     </span>
                   </a>
                 </Link>

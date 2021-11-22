@@ -61,7 +61,9 @@ export const Sidebar = () => {
             <li className='flex'>
               <Link href='/yoko_sings'>
                 <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
-                  <span className='py-3 ml-2 text-yellow-100'>歌</span>
+                  <span className='py-3 ml-2 text-yellow-100'>
+                    歌とデザイン
+                  </span>
                 </a>
               </Link>
             </li>
