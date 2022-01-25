@@ -1,12 +1,12 @@
 import Head from "next/head";
 
 export const HeadPart = () => {
-  const image = "https://yoko-2021.vercel.app/ogp.jpg";
+  const image = "https://yoko-2021.vercel.app/images/ogp.webp";
   const url = "https://yoko-2021.vercel.app/";
-  const content = "yoko Webで遊ぶ | 2020〜2021の活動をまとめました";
+  const content = "yoko Webに生きる | 2020〜2021の活動をまとめました";
   return (
     <Head>
-      <title>yoko | webで生きる | プログラミングを学ぶ</title>
+      <title>yoko | Webに生きる | プログラミングを学ぶ</title>
       <meta name='description' content={content} />
       <meta property='og:title' content={content} />
       <meta
