@@ -37,7 +37,13 @@ export const Timeline = () => {
             </div>
             <div className='order-1 py-4 px-6 w-5/12 bg-gray-200 rounded-lg shadow-xl'>
               <h3 className='mb-3 text-lg font-bold text-gray-800 hover:text-green-600'>
-                Maincoonブリーダー様のサイトの制作および公開
+                <a
+                  href='https://www.canon-cat.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Maincoonブリーダー様のサイトの制作および公開
+                </a>
               </h3>
               <p className='text-sm tracking-wide leading-snug text-gray-900 text-opacity-100'>
                 使用技術：
