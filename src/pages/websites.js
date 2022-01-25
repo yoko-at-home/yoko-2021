@@ -27,7 +27,7 @@ const websites = () => {
                   width={700}
                   height={500}
                   alt='櫻井ピアノスクール'
-                  className='object-cover w-full h-full max-h-64 sm:max-h-96 rounded-lg'
+                  className='object-cover w-full h-full max-h-64 sm:max-h-96'
                   src='/pic_piano01.jpg'
                 />
               </a>
@@ -60,6 +60,53 @@ const websites = () => {
           <div className='grid grid-cols-12 gap-x-8 gap-y-16 sm:px-5 pb-10'>
             <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
               <a
+                href='https://www.gen-scent.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='block'
+              >
+                <Image
+                  width={700}
+                  height={500}
+                  alt='Gen-Scent Research Laboratory様Webサイト'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56'
+                  src='/images/web-genscent.webp'
+                />
+              </a>
+              <div className='flex flex-row'>
+                <SkillTag spanColor='red'>Next.js</SkillTag>
+                <SkillTag spanColor='blue'>Tailwind css</SkillTag>
+                <SkillTag spanColor='purple'>ヘッドレスCMS</SkillTag>
+              </div>
+              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
+                初めての企業さま案件
+              </h2>
+              <p
+                id='blog'
+                className='text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-gray-200 '
+              >
+                プログラミングコミュニティ Over 40 Web Club
+                からのご縁で、スタートアップ企業さまのWebサイトを制作させていただきました。Next.js
+                / Tailwind css / <a href='https://microcms.io/'>MicroCMS</a>{" "}
+                という技術選定。初めてデザインを提示されて実装したサイトでもあります。クライアントの希望を伺いつつ、効果的な配色などのデザインでもご提案させてitだきました。
+                PWAも実現し、Lighthouseスコアの、パフォーマンス99点、アクセシビリティ、ベストプラクティス、SEOでフルスコアを実現。
+                Google Analytics、Google Search
+                Consoleなどの仕組みも取り入れ、大変勉強になった案件でした。ここを通過点として、さらに技術力を高めます。
+              </p>
+              <p className='pt-2 text-xs font-medium'>
+                <a
+                  href='https://www.gen-scent.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='mr-1 underline'
+                >
+                  玄川リサーチ（Gen-Scent Research Laboratory)
+                </a>{" "}
+                公開：<span className='mx-1'>January 2022</span>
+              </p>
+            </div>
+            <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
+              <a
                 href='https://canon-cat.com'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -68,8 +115,8 @@ const websites = () => {
                 <Image
                   width={700}
                   height={500}
-                  alt='Cattery Cannon'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
+                  alt='Cattery Canon様Webサイト'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56'
                   src='/images/web-canoncat.jpg'
                 />
               </a>
@@ -94,7 +141,7 @@ const websites = () => {
               </p>
               <p className='pt-2 text-xs font-medium'>
                 <a
-                  href='https://cattery-canon.vercel.app/'
+                  href='https://cattery-canon.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='mr-1 underline'
@@ -119,7 +166,7 @@ const websites = () => {
                   width={700}
                   height={500}
                   alt='ショコラピアノ教室'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg shadow-sm'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56 shadow-sm'
                   src='/pic_piano02.jpg'
                 />
               </a>
@@ -154,7 +201,7 @@ const websites = () => {
                   width={700}
                   height={500}
                   alt='もう一つの櫻井ピアノスクール'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg shadow-sm'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56 shadow-sm'
                   src='/pic_piano03.jpg'
                 />
               </a>
@@ -196,7 +243,7 @@ const websites = () => {
                   width={700}
                   height={500}
                   alt='座間駅周辺美味しいところ'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg shadow-sm'
+                  className='object-cover overflow-hidden mb-2 w-full max-h-56 shadow-sm'
                   src='/pic_web_zama.jpg'
                 />
               </a>
@@ -223,64 +270,6 @@ const websites = () => {
                 制作：<span className='mx-1'>May 2020</span>
               </p>
             </div>
-
-            {/* <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
-              <a href='#_' className='block'>
-                <Image
-                  width={700}
-                  height={500}
-                  alt='Cattery Cannon(仮)'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
-                  src='/pic_microcms.jpg'
-                />
-              </a>
-              <div className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-gray-800 rounded-full'>
-                <span>Business</span>
-              </div>
-              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
-                Simple Time Management
-              </h2>
-              <p className='text-sm text-gray-200 md:text-lg lg:text-base leading-7 lg:leading-10 '>
-                Managing your time can make the difference between getting ahead
-                in life or staying exactly where you are.
-              </p>
-              <p className='pt-2 text-xs font-medium'>
-                <a href='#_' className='mr-1 underline'>
-                  Scott Reedman
-                </a>{" "}
-                · <span className='mx-1'>May 18, 2021</span> ·{" "}
-                <span className='mx-1 text-gray-600'>3 min. read</span>
-              </p>
-            </div> */}
-
-            {/* <div className='flex flex-col col-span-12 sm:col-span-6 xl:col-span-4 items-start space-y-3'>
-              <a href='#_' className='block'>
-                <Image
-                  width={700}
-                  height={500}
-                  alt='bbbb'
-                  className='object-cover overflow-hidden mb-2 w-full max-h-56 rounded-lg'
-                  src='/pic01.jpg'
-                />
-              </a>
-              <div className='inline-block items-center py-1.5 px-3 text-xs font-medium leading-none text-white uppercase bg-yellow-400 rounded-full'>
-                <span>Nutrition</span>
-              </div>
-              <h2 className='text-lg sm:text-xl md:text-2xl font-bold'>
-                The Fruits Life
-              </h2>
-              <p className='text-sm text-gray-200 md:text-lg lg:text-base leading-7 lg:leading-10 '>
-                Take a moment and enjoy to enjoy the many fruits of life.
-                Relaxation and a healthy diet can go a long way.
-              </p>
-              <p className='pt-2 text-xs font-medium'>
-                <a href='#_' className='mr-1 underline'>
-                  Jake Caldwell
-                </a>{" "}
-                · <span className='mx-1'>May 15, 2021</span> ·{" "}
-                <span className='mx-1 text-gray-600'>3 min. read</span>
-              </p>
-            </div> */}
           </div>
         </div>
       </section>
