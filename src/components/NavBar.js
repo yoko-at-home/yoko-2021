@@ -58,15 +58,6 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className='flex mx-auto'>
-                <Link href='/programming'>
-                  <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-white uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
-                      プログラミング
-                    </span>
-                  </a>
-                </Link>
-              </li>
-              <li className='flex mx-auto'>
                 <Link href='/websites'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
                     <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full'>
@@ -75,6 +66,16 @@ export const Navbar = () => {
                   </a>
                 </Link>
               </li>
+              <li className='flex mx-auto'>
+                <Link href='/programming'>
+                  <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-white uppercase'>
+                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
+                      プログラミング
+                    </span>
+                  </a>
+                </Link>
+              </li>
+
               <li className='flex mx-auto'>
                 <Link href='/community'>
                   <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-gray-700 uppercase'>
