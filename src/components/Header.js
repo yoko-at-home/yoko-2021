@@ -23,7 +23,7 @@ export const Header = () => {
                     textShadow: "0px 0px 25px rgba(125, 125, 125, 0.8)",
                   }}
                 >
-                  Yoko、Webで遊ぶ
+                  Yoko、Webで生きる
                 </h1>
                 <p
                   className='mt-4 text-lg text-white opacity-75'
