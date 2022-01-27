@@ -20,6 +20,15 @@ export const Sidebar = () => {
               </Link>
             </li>
             <li className='flex'>
+              <Link href='/websites'>
+                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
+                  <span className='py-3 ml-2 text-yellow-100'>
+                    Webサイト（制作実績）
+                  </span>
+                </a>
+              </Link>
+            </li>
+            <li className='flex'>
               <Link href='/skills'>
                 <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
                   <span className='py-3 ml-2 text-yellow-100'>あゆみ</span>
@@ -27,13 +36,6 @@ export const Sidebar = () => {
               </Link>
             </li>
 
-            <li className='flex'>
-              <Link href='/websites'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
-                  <span className='py-3 ml-2 text-yellow-100'>Webサイト</span>
-                </a>
-              </Link>
-            </li>
             <li className='flex'>
               <Link href='/programming'>
                 <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
