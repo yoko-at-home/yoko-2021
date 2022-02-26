@@ -36,7 +36,7 @@ export const Sidebar = () => {
               </Link>
             </li>
 
-            <li className='flex'>
+            {/* <li className='flex'>
               <Link href='/programming'>
                 <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
                   <span className='py-3 ml-2 text-yellow-100'>
@@ -44,7 +44,7 @@ export const Sidebar = () => {
                   </span>
                 </a>
               </Link>
-            </li>
+            </li> */}
             <li className='flex'>
               <Link href='/community'>
                 <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-gray-700'>
