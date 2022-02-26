@@ -33,11 +33,6 @@ export const HeadPart = () => {
       <meta name='twitter:image' content={image} />
       <link rel='canonical' href={url} />
       <link rel='shortcut icon' href={"/favicon.png"} />
-      {/* <link rel='apple-touch-icon' href={"https://t-cr.jp/logo.png"} /> */}
-      <link
-        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'
-        rel='stylesheet'
-      />
     </Head>
   );
 };
