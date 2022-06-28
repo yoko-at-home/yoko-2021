@@ -19,10 +19,10 @@ const miscellaneous = () => {
     <Layout>
       <BannerLanding title='いろいろ' description='楽しい子たち' />
       {/* <!-- Section 1 --> */}
-      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+      <section className='pt-7 pb-7 w-full text-yellow-50 md:pt-20'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row lg:px-16'>
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-5 mb-4 -ml-5 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:ml-0 md:w-1/2 md:max-w-none lg:mb-0 xl:pl-10'>
             <a
               href='https://yoko-stage.s3.ap-northeast-1.amazonaws.com/MyCalendar/index.html'
               target='_blank'
@@ -33,7 +33,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='琥太郎カレンダーとアナログ時計'
                 src={clock}
-                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+                className='p-2 pr-5 pl-6 xl:pr-20 xl:pl-16 '
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -42,13 +42,13 @@ const miscellaneous = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border order-first pb-2 w-full border-solid md:order-none md:pl-10 md:w-1/2'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               琥太郎カレンダーとアナログ時計
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-5 m-0 leading-7 border-0 border-gray-300 sm:pr-12 lg:text-lg xl:pr-32'>
               Progate、ドットインストールそのままやってもつまらない。デザインを変えてみる楽しさに目覚める。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
@@ -79,16 +79,16 @@ const miscellaneous = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mt-2 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row md:mt-20 lg:px-16 xl:mt-0'>
           {/* <!-- Content --> */}
-          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border w-full border-solid md:pl-6 md:w-1/2 xl:pl-32'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               琥太郎タイピングゲーム
             </h2>
-            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-8 m-0 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg'>
               ドットインストールを学習しながら作った、カレンダーと時計。二つ組み合わせて琥太郎くんをあしらえば、世界に一つだけのマイウォッチ。格安でアプリを置けるのはAWS
               S3しかないと思っていた。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
@@ -120,7 +120,7 @@ const miscellaneous = () => {
           {/* <!-- End  Content --> */}
 
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-10 mb-4 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:w-1/2 md:max-w-none lg:mb-0'>
             <a
               href='https://yoko-stage.s3.ap-northeast-1.amazonaws.com/MyTypingGame/index.html'
               target='_blank'
@@ -131,7 +131,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='琥太郎タイピングゲーム'
                 src={typing}
-                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+                className='pl-4 sm:pr-10 lg:pr-32 xl:pl-10'
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -141,10 +141,10 @@ const miscellaneous = () => {
         </div>
       </section>
       {/* <!-- Section 2 --> */}
-      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+      <section className='pt-7 pb-7 w-full text-yellow-50 md:pt-20'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row lg:px-16'>
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-5 mb-4 -ml-5 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:ml-0 md:w-1/2 md:max-w-none lg:mb-0 xl:pl-10'>
             <a
               href='https://yoko-stage.s3.ap-northeast-1.amazonaws.com/MyStopwatch/index.html'
               target='_blank'
@@ -155,7 +155,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='aaaa'
                 src={stopwatch}
-                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+                className='p-2 pr-5 pl-6 xl:pr-20 xl:pl-16 '
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -164,11 +164,11 @@ const miscellaneous = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border order-first pb-2 w-full border-solid md:order-none md:pl-10 md:w-1/2'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               琥太郎ストップウォッチ
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'></p>
+            <div className='pt-4 pb-5 m-0 leading-7 border-0 border-gray-300 sm:pr-12 lg:text-lg xl:pr-32'></div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               だいたいこの辺りから
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
@@ -200,16 +200,16 @@ const miscellaneous = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mt-2 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row md:mt-20 lg:px-16 xl:mt-0'>
           {/* <!-- Content --> */}
-          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border w-full border-solid md:pl-6 md:w-1/2 xl:pl-32'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               笑ってはいけない英語学習
             </h2>
-            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-8 m-0 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg'>
               日本でも親父ギャグというのがありますが、英語にもdad
               jokesがあるんですね。世界は普遍性に満ちています。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
@@ -241,7 +241,7 @@ const miscellaneous = () => {
           {/* <!-- End  Content --> */}
 
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-10 mb-4 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:w-1/2 md:max-w-none lg:mb-0'>
             <a
               href='https://kotaro-club-meow02.netlify.app/'
               target='_blank'
@@ -252,7 +252,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='笑ってはいけない英語学習'
                 src={joke}
-                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+                className='pl-4 sm:pr-10 lg:pr-32 xl:pl-10'
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -262,10 +262,10 @@ const miscellaneous = () => {
         </div>
       </section>
       {/* <!-- Section 3 --> */}
-      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+      <section className='pt-7 pb-7 w-full text-yellow-50 md:pt-20'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row lg:px-16'>
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-5 mb-4 -ml-5 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:ml-0 md:w-1/2 md:max-w-none lg:mb-0 xl:pl-10'>
             <a
               className='ml-5'
               href='https://kota-sound-board.netlify.app/'
@@ -277,7 +277,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='サウンドボード'
                 src={sound}
-                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+                className='p-2 pr-5 pl-6 xl:pr-20 xl:pl-16 '
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -286,13 +286,13 @@ const miscellaneous = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border order-first pb-2 w-full border-solid md:order-none md:pl-10 md:w-1/2'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               サウンドボード
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-5 m-0 leading-7 border-0 border-gray-300 sm:pr-12 lg:text-lg xl:pr-32'>
               このサウンドボードを組み合わせたアプリは司会を引き受けるたびに大量生産しました。レスポンシブとOGPに異様に拘っていたこの頃。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
@@ -313,7 +313,7 @@ const miscellaneous = () => {
                 こんな使い方する人、ほとんどいない（需要なくても気にしない。
               </li>
             </ul>
-            <div className='flex flex-row justify-between md:justify-items-start w-full'>
+            <div className='flex flex-row justify-between w-full md:justify-items-start'>
               <a
                 className='ml-5'
                 href='https://kota-sound-board.netlify.app/'
@@ -333,15 +333,15 @@ const miscellaneous = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mt-2 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row md:mt-20 lg:px-16 xl:mt-0'>
           {/* <!-- Content --> */}
-          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border w-full border-solid md:pl-6 md:w-1/2 xl:pl-32'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               Neumorphism のキーコード取得アプリ
             </h2>
-            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-8 m-0 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg'>
               Neumorphismというデザインを知り、実装したくなって作ってみたアプリ。キーコードの使い所がわかりません。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
@@ -373,7 +373,7 @@ const miscellaneous = () => {
           {/* <!-- End  Content --> */}
 
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-10 mb-4 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:w-1/2 md:max-w-none lg:mb-0'>
             <a
               href='https://kotaro-club-meow03.netlify.app/'
               target='_blank'
@@ -384,7 +384,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='Neumorphism のキーコード取得アプリ'
                 src={keyevent}
-                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+                className='pl-4 sm:pr-10 lg:pr-32 xl:pl-10'
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -394,10 +394,10 @@ const miscellaneous = () => {
         </div>
       </section>
       {/* <!-- Section 4 --> */}
-      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+      <section className='pt-7 pb-7 w-full text-yellow-50 md:pt-20'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row lg:px-16'>
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-5 mb-4 -ml-5 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:ml-0 md:w-1/2 md:max-w-none lg:mb-0 xl:pl-10'>
             <a
               href='https://kotaro-club-meow07.netlify.app/'
               target='_blank'
@@ -408,7 +408,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='一日2リットルのお水を飲みましょう'
                 src={drinkwater}
-                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+                className='p-2 pr-5 pl-6 xl:pr-20 xl:pl-16 '
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -417,13 +417,13 @@ const miscellaneous = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border order-first pb-2 w-full border-solid md:order-none md:pl-10 md:w-1/2'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               一日2リットルのお水を飲みましょう
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-5 m-0 leading-7 border-0 border-gray-300 sm:pr-12 lg:text-lg xl:pr-32'>
               自分でやると、ダサいデザインになってしまう。気分を上げるためにキラキラを配置。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
@@ -454,16 +454,16 @@ const miscellaneous = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mt-2 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row md:mt-20 lg:px-16 xl:mt-0'>
           {/* <!-- Content --> */}
-          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border w-full border-solid md:pl-6 md:w-1/2 xl:pl-32'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               映画検索アプリ
             </h2>
-            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-8 m-0 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg'>
               <a href='https://www.themoviedb.org/documentation/api'>TMDB</a>
               からAPIを取得して映画を検索できるアプリ
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
@@ -495,7 +495,7 @@ const miscellaneous = () => {
           {/* <!-- End  Content --> */}
 
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-10 mb-4 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:w-1/2 md:max-w-none lg:mb-0'>
             <a
               href='https://kotaro-club-meow06.netlify.app/'
               target='_blank'
@@ -506,7 +506,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='映画検索アプリ'
                 src={movie}
-                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+                className='pl-4 sm:pr-10 lg:pr-32 xl:pl-10'
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -515,10 +515,10 @@ const miscellaneous = () => {
           </div>
         </div>
       </section>
-      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+      <section className='pt-7 pb-7 w-full text-yellow-50 md:pt-20'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row lg:px-16'>
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-5 mb-4 -ml-5 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:ml-0 md:w-1/2 md:max-w-none lg:mb-0 xl:pl-10'>
             <a
               href='https://qin-who-next.netlify.app'
               target='_blank'
@@ -529,7 +529,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='幹事決めアプリ'
                 src={"/pic_who-next.jpg"}
-                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+                className='p-2 pr-5 pl-6 xl:pr-20 xl:pl-16 '
               />
             </a>
             <SkillTag spanColor='red'>JavaScript</SkillTag>
@@ -538,13 +538,13 @@ const miscellaneous = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
-            <h2 className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'>
+          <div className='box-border order-first pb-2 w-full border-solid md:order-none md:pl-10 md:w-1/2'>
+            <h2 className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'>
               イベントを盛り上げるために作るアプリは楽しい
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-5 m-0 leading-7 border-0 border-gray-300 sm:pr-12 lg:text-lg xl:pr-32'>
               幹事をランダムに選出。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
@@ -575,19 +575,19 @@ const miscellaneous = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mt-2 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row md:mt-20 lg:px-16 xl:mt-0'>
           {/* <!-- Content --> */}
-          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
+          <div className='box-border w-full border-solid md:pl-6 md:w-1/2 xl:pl-32'>
             <h2
               id='bell'
-              className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'
+              className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'
             >
               Ring the Bells
             </h2>
-            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-8 m-0 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg'>
               IT KINGDOM
               LT会登壇のために作ったアプリ。アプリに行って、ひつじさんをタップしてみて。素敵な1日になること間違いなし！
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
@@ -619,7 +619,7 @@ const miscellaneous = () => {
           {/* <!-- End  Content --> */}
 
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-10 mb-4 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:w-1/2 md:max-w-none lg:mb-0'>
             <a
               href='https://ring-the-bells.netlify.app/'
               target='_blank'
@@ -630,7 +630,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='Ring the Bells'
                 src={"/pic_misc03.jpg"}
-                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+                className='pl-4 sm:pr-10 lg:pr-32 xl:pl-10'
               />
             </a>
             <SkillTag spanColor='red'>React</SkillTag>
@@ -639,10 +639,10 @@ const miscellaneous = () => {
           </div>
         </div>
       </section>
-      <section className='pt-7 md:pt-20 pb-7 w-full text-yellow-50'>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+      <section className='pt-7 pb-7 w-full text-yellow-50 md:pt-20'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mb-12 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row lg:px-16'>
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 xl:pl-10 mt-5 md:mt-0 mb-4 lg:mb-0 -ml-5 md:ml-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-5 mb-4 -ml-5 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:ml-0 md:w-1/2 md:max-w-none lg:mb-0 xl:pl-10'>
             <a
               href='https://qin-lt.vercel.app/'
               target='_blank'
@@ -653,7 +653,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='チャットアプリ'
                 src={"/pic01.jpg"}
-                className='p-2 pr-5 xl:pr-20 pl-6 xl:pl-16 '
+                className='p-2 pr-5 pl-6 xl:pr-20 xl:pl-16 '
               />
             </a>
             <SkillTag spanColor='red'>React</SkillTag>
@@ -662,16 +662,16 @@ const miscellaneous = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className='box-border order-first md:order-none pb-2 md:pl-10 w-full md:w-1/2 border-solid'>
+          <div className='box-border order-first pb-2 w-full border-solid md:order-none md:pl-10 md:w-1/2'>
             <h2
               id='chat'
-              className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'
+              className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'
             >
               チャットアプリ
             </h2>
-            <p className='pt-4 sm:pr-12 xl:pr-32 pb-5 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-5 m-0 leading-7 border-0 border-gray-300 sm:pr-12 lg:text-lg xl:pr-32'>
               LT会イベントでヤジを飛ばしたり、質問したり。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 bg-yellow-300 rounded-full'>
@@ -702,18 +702,18 @@ const miscellaneous = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className='box-border flex flex-col md:flex-row content-center items-center px-8 lg:px-16 mx-auto mt-2 md:mt-20 xl:mt-0 max-w-7xl leading-6 border-0 border-gray-300 border-solid'>
+        <div className='box-border flex flex-col content-center items-center px-8 mx-auto mt-2 max-w-7xl leading-6 border-0 border-gray-300 border-solid md:flex-row md:mt-20 lg:px-16 xl:mt-0'>
           {/* <!-- Content --> */}
-          <div className='box-border md:pl-6 xl:pl-32 w-full md:w-1/2 border-solid'>
+          <div className='box-border w-full border-solid md:pl-6 md:w-1/2 xl:pl-32'>
             <h2
               id='bulletin'
-              className='m-0 text-xl md:text-2xl lg:text-3xl font-semibold leading-tight border-0 border-gray-300'
+              className='m-0 text-xl font-semibold leading-tight border-0 border-gray-300 md:text-2xl lg:text-3xl'
             >
               お題投稿アプリ
             </h2>
-            <p className='pt-4 sm:pr-10 pb-8 m-0 lg:text-lg leading-7 border-0 border-gray-300'>
+            <div className='pt-4 pb-8 m-0 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg'>
               IT KINGDOM イベントのために作ったお題投稿アプリ。
-            </p>
+            </div>
             <ul className='p-0 m-0 mb-12 leading-6 border-0 border-gray-300'>
               <li className='box-border relative py-1 pl-0 text-left border-solid'>
                 <span className='inline-flex justify-center items-center mr-2 w-6 h-6 text-white bg-yellow-300 rounded-full'>
@@ -745,7 +745,7 @@ const miscellaneous = () => {
           {/* <!-- End  Content --> */}
 
           {/* <!-- Image --> */}
-          <div className='box-border relative px-4 mt-10 md:mt-0 mb-4 lg:mb-0 w-full md:w-1/2 max-w-md md:max-w-none text-center bg-no-repeat bg-contain border-solid'>
+          <div className='box-border relative px-4 mt-10 mb-4 w-full max-w-md text-center bg-no-repeat bg-contain border-solid md:mt-0 md:w-1/2 md:max-w-none lg:mb-0'>
             <a
               href='https://qin-bulletin-board.vercel.app/'
               target='_blank'
@@ -756,7 +756,7 @@ const miscellaneous = () => {
                 height={500}
                 alt='チャットアプリ'
                 src={"/pic06.jpg"}
-                className='sm:pr-10 lg:pr-32 pl-4 xl:pl-10'
+                className='pl-4 sm:pr-10 lg:pr-32 xl:pl-10'
               />
             </a>
             <SkillTag spanColor='red'>React</SkillTag>

@@ -6,19 +6,19 @@ import { Sidebar } from "../Sidebar";
 export const Layout = (props) => {
   return (
     <div
-      className='grid grid-cols-1 lg:auto-cols-fr justify-center lg:pl-60 w-screen min-h-screen bg-opacity-50'
+      className="grid grid-cols-1 justify-center w-screen min-h-screen bg-opacity-50 lg:auto-cols-fr lg:pl-60"
       style={{ backgroundColor: "rgba(12, 12, 58)" }}
     >
-      <header className='lg:hidden h-16'>
+      <header className="h-16 lg:hidden">
         <HeadPart title={props.title} />
       </header>
       <Sidebar />
-      <div className='text-white'>
+      <div className="text-white">
         <div
-          className='flex flex-col'
+          className="flex flex-col"
           style={{ backgroundColor: "rgba(12, 12, 58)" }}
         >
-          <div className='lg:hidden'>
+          <div className="lg:hidden">
             <Navbar />
           </div>
           <div>{props.children}</div>

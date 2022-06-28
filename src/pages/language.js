@@ -16,9 +16,7 @@ const language = () => {
         {/* <div className='absolute top-5 left-5 z-50' desc={"desc"} /> */}
         <div className="flex flex-col justify-center text-center">
           <div className="m-20">
-            <ButtonYellow>
-              clubhouse、英系国際法律事務所にてRPAプロジェクト参戦中のためお休みしています
-            </ButtonYellow>
+            <ButtonYellow>現在、お休み中</ButtonYellow>
           </div>
           <a
             href="https://apps.apple.com/jp/app/clubhouse-drop-in-audio-chat/id1503133294"
@@ -39,21 +37,21 @@ const language = () => {
 
         <div className="flex flex-col justify-between text-center">
           <div className="p-10 md:p-20">
-            <h3 className="mb-5 text-lg md:text-2xl underline">
+            <h3 className="mb-5 text-lg underline md:text-2xl">
               英語ドキュメンテーションやブログを音読
             </h3>
-            <p className="min-w-full text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-left ">
+            <div className="min-w-full text-sm leading-7 text-left md:text-lg lg:text-base lg:leading-10 ">
               平日の8:05-8:25
               a.m.、徒然なるままにプログラミングの英語ドキュメンテーションやブログを音読しています。React系のドキュメンテーションを読んでいることが多いです。ちょっと話題になったブログや、新しいPaasなどの情報も読んでます。
-            </p>
-            <p className="min-w-full text-sm md:text-lg lg:text-base leading-7 lg:leading-10 text-left ">
+            </div>
+            <div className="min-w-full text-sm leading-7 text-left md:text-lg lg:text-base lg:leading-10 ">
               もうすっかり廃れた感のあるclubhouseですが、訪れてくれる方がいて、継続する力になっています。感謝！
               使わなくなるとすぐに忘れてしまうのが、語学。プログラミングやってて、英語できてよかったなと思うこの頃です。
               言葉が読めるだけでは太刀打ちできませんが、日々小さな積み重ねで、瞬発力が出せると思っています。
               よかったら立ち聞きしにいらしてください。
               <br />
               (招待枠持っています。招待希望の方はTwitterからお声がけください。)
-            </p>
+            </div>
           </div>
         </div>
         {/* <div className='mt-5 text-center'>

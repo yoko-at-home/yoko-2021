@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import cc from "classcat";
-import type { DOMAttributes, ReactNode, VFC } from "react";
+import type { DOMAttributes, FC, ReactNode } from "react";
 
 type TagType = {
   id?: number;
@@ -10,7 +11,7 @@ type TagType = {
   src?: string;
 };
 
-export const SkillTag: VFC<TagType> = (props) => {
+export const SkillTag: FC<TagType> = (props) => {
   const spanClasses = cc([
     "inline-block items-center py-1.5 px-3 mr-1 text-xs font-medium leading-none text-white uppercase bg-opacity-50 rounded-full",
     {
@@ -23,7 +24,7 @@ export const SkillTag: VFC<TagType> = (props) => {
   ]);
   return <span className={cc([spanClasses])}>{props.children}</span>;
 };
-export const SkillTagSolid: VFC<TagType> = (props) => {
+export const SkillTagSolid: FC<TagType> = (props) => {
   const spanClasses = cc([
     "inline-block items-center py-1.5 px-3 mr-1 text-xs font-medium leading-none text-white uppercase rounded-full",
     {
