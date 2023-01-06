@@ -6,7 +6,7 @@ export const TimelineTop = () => {
         <a
           className="z-50 mx-auto text-lg font-semibold tracking-tighter leading-4 text-green-800 whitespace-nowrap"
           target="_blank"
-          href="https://yoko-portfolio.vercel.app/portfolio"
+          href="https://yoko-portfolio.vercel.app/about"
           rel="noreferrer"
         >
           <span className="text-xs hover:text-lg tracking-widest hover:text-pink-500">
