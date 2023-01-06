@@ -20,13 +20,18 @@ export const Sidebar = () => {
               </Link>
             </li>
             <li className="flex">
-              <Link href="/websites">
-                <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
-                  <span className="py-3 ml-2 text-yellow-100">
-                    Webサイト（制作実績）
-                  </span>
-                </a>
-              </Link>
+              {/* <Link href="/websites"> */}
+              <a
+                className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2"
+                target="_blank"
+                href="https://yoko-portfolio.vercel.app/portfolio"
+                rel="noreferrer"
+              >
+                <span className="py-3 ml-2 text-yellow-100">
+                  Webサイト（制作実績 外部リンク）
+                </span>
+              </a>
+              {/* </Link> */}
             </li>
             <li className="flex">
               <Link href="/skills">
