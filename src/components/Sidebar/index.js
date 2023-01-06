@@ -40,29 +40,12 @@ export const Sidebar = () => {
                 </a>
               </Link>
             </li>
-
-            {/* <li className='flex'>
-              <Link href='/programming'>
-                <a className='flex py-3 lg:py-2 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400'>
-                  <span className='py-3 ml-2 text-yellow-100'>
-                    プログラミング
-                  </span>
-                </a>
-              </Link>
-            </li> */}
             <li className="flex">
               <Link href="/community">
                 <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
                   <span className="py-3 ml-2 text-yellow-100">
                     ２つのコミュニティ
                   </span>
-                </a>
-              </Link>
-            </li>
-            <li className="flex">
-              <Link href="/language">
-                <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
-                  <span className="py-3 ml-2 text-yellow-100">語学</span>
                 </a>
               </Link>
             </li>
@@ -75,13 +58,13 @@ export const Sidebar = () => {
                 </a>
               </Link>
             </li>
-            <li className="flex">
+            {/* <li className="flex">
               <Link href="/miscellaneous">
                 <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
                   <span className="py-3 ml-2 text-yellow-100">いろいろ</span>
                 </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

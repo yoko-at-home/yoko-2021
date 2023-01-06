@@ -72,30 +72,11 @@ export const Navbar = () => {
                 </Link>
               </li>
 
-              {/* <li className='flex mx-auto'>
-                <Link href='/programming'>
-                  <a className='flex items-center md:py-3 lg:py-2 px-3 text-xs font-bold text-white uppercase'>
-                    <span className='py-3 mx-auto ml-2 w-32 md:w-96 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full'>
-                      プログラミング
-                    </span>
-                  </a>
-                </Link>
-              </li> */}
-
               <li className="flex mx-auto">
                 <Link href="/community">
                   <a className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2">
                     <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full md:w-96">
                       ２つのコミュニティ
-                    </span>
-                  </a>
-                </Link>
-              </li>
-              <li className="flex mx-auto">
-                <Link href="/language">
-                  <a className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2">
-                    <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full md:w-96">
-                      語学
                     </span>
                   </a>
                 </Link>
@@ -109,7 +90,7 @@ export const Navbar = () => {
                   </a>
                 </Link>
               </li>
-              <li className="flex mx-auto">
+              {/* <li className="flex mx-auto">
                 <Link href="/miscellaneous">
                   <a className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2">
                     <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full md:w-96">
@@ -117,7 +98,7 @@ export const Navbar = () => {
                     </span>
                   </a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
