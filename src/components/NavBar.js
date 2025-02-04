@@ -28,10 +28,9 @@ export const Navbar = () => {
             </button>
           </div>
           <div
-            className={
-              "flex-grow items-center lg:bg-opacity-60 lg:shadow-none backdrop-opacity-80 backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white" +
-              (isNavbarOpen ? " block" : " hidden")
-            }
+            className={`flex-grow items-center lg:bg-opacity-60 lg:shadow-none backdrop-opacity-80 backdrop-blur-lg shadow-inner rounded drop-shadow-sm lg:text-white${
+              isNavbarOpen ? " block" : " hidden"
+            }`}
             id="example-navbar-warning"
             style={{
               backgroundColor: "rgba(15, 10, 80, .6)",
@@ -41,11 +40,11 @@ export const Navbar = () => {
             <ul className="flex flex-col mx-auto list-none lg:ml-auto">
               <li className="flex mx-auto">
                 <Link href="/">
-                  <a className="flex items-center px-3 text-xs font-bold text-white uppercase md:py-3 lg:py-2">
+                  <div className="flex items-center px-3 text-xs font-bold text-white uppercase md:py-3 lg:py-2">
                     <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full md:w-96">
                       home
                     </span>
-                  </a>
+                  </div>
                 </Link>
               </li>
               <li className="flex mx-auto">
@@ -64,30 +63,39 @@ export const Navbar = () => {
               </li>
               <li className="flex mx-auto">
                 <Link href="/skills">
-                  <a className="flex items-center px-3 text-xs font-bold text-white uppercase md:py-3 lg:py-2">
+                  <div
+                    href="/skills"
+                    className="flex items-center px-3 text-xs font-bold text-white uppercase md:py-3 lg:py-2"
+                  >
                     <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-gray-700 hover:bg-opacity-90 rounded-tl-full rounded-br-full md:w-96">
                       あゆみ
                     </span>
-                  </a>
+                  </div>
                 </Link>
               </li>
 
               <li className="flex mx-auto">
                 <Link href="/community">
-                  <a className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2">
+                  <div
+                    href="/community"
+                    className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2"
+                  >
                     <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full md:w-96">
                       ２つのコミュニティ
                     </span>
-                  </a>
+                  </div>
                 </Link>
               </li>
               <li className="flex mx-auto">
                 <Link href="/yoko_sings">
-                  <a className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2">
+                  <div
+                    href="/yoko_sings"
+                    className="flex items-center px-3 text-xs font-bold text-gray-700 uppercase md:py-3 lg:py-2"
+                  >
                     <span className="py-3 mx-auto ml-2 w-32 text-center text-yellow-100 hover:bg-green-400 hover:bg-opacity-60 rounded-tl-full rounded-br-full md:w-96">
                       歌とデザイン
                     </span>
-                  </a>
+                  </div>
                 </Link>
               </li>
               {/* <li className="flex mx-auto">

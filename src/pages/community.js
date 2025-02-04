@@ -60,7 +60,7 @@ const community = () => {
               alt={"IT KINGDOM"}
             />
           </a>
-          <div className="text-center"></div>
+          <div className="text-center" />
         </div>
         <div className="justify-center p-5 md:p-16 lg:order-3 lg:mt-20">
           <h3 className="pb-3 text-lg underline md:text-2xl">
@@ -73,10 +73,8 @@ const community = () => {
             Talk会の司会という大役をいただき、第二回では登壇も果たしました。
             <br />
             このLT会のために作成した
-            <Link href="/programming#chat">
-              <a href="https://yoko-2021.vercel.app/programming#chat">
-                チャットアプリ
-              </a>
+            <Link href="https://yoko-2021.vercel.app/programming#chat">
+              チャットアプリ
             </Link>
             に残されたメッセージが、今では私の宝物となっています(LT会毎にCSSを当て直し、模様替えしています)。こちらのコミュニティも大変活発で、朝活や夜活はもちろん、現役エンジニアを交えてプロダクト開発にも参加させていただいています。
           </div>

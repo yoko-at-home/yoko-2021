@@ -29,7 +29,7 @@ export const Timeline = () => {
           {/* start of Set5 */}
           {/* <!-- right timeline --> */}
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
                 November
@@ -66,15 +66,15 @@ export const Timeline = () => {
                   <Image
                     src="/images/ayumi-seo.jpg"
                     alt="Lighthouse performace score"
-                    width="100px"
-                    height="100px"
+                    width={100}
+                    height={100}
                   />
                   <a href="canon-cat.com" target="_blank" rel="noreferrer">
                     <Image
                       src="/images/web-canoncat.jpg"
                       alt="canon-catへのリンク"
-                      width="150px"
-                      height="100px"
+                      width={150}
+                      height={100}
                     />
                   </a>
                 </div>
@@ -84,7 +84,7 @@ export const Timeline = () => {
 
           {/* <!-- left timeline --> */}
           <div className="flex flex-row justify-between items-center mb-5 w-full md:flex-row-reverse">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
             <TimelineVerticalBorder />
             <div className="flex relative z-20 order-1">
@@ -121,7 +121,7 @@ export const Timeline = () => {
         <div className="overflow-hidden relative left-0 flex-wrap px-10 h-full">
           {/* <!-- right timeline --> */}
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
                 July
@@ -156,7 +156,7 @@ export const Timeline = () => {
 
           {/* <!-- left timeline --> */}
           <div className="flex flex-row justify-between items-center mb-5 w-full md:flex-row-reverse">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
             <TimelineVerticalBorder />
             <div className="flex relative z-20 order-1">
@@ -197,13 +197,13 @@ export const Timeline = () => {
         {/* start of Set3 */}
         <div className="overflow-hidden relative left-0 flex-wrap px-10 h-full">
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
-            <div className="order-1 py-4 px-6 w-5/12 rounded-lg"></div>
+            <div className="order-1 py-4 px-6 w-5/12 rounded-lg" />
           </div>
           {/* <!-- right timeline --> */}
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
@@ -240,7 +240,7 @@ export const Timeline = () => {
 
           {/* <!-- left timeline --> */}
           <div className="flex flex-row justify-between items-center mb-8 w-full md:flex-row-reverse">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
@@ -275,13 +275,13 @@ export const Timeline = () => {
         {/* start of Set2 */}
         <div className="overflow-hidden relative left-0 flex-wrap px-10 h-full">
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
-            <div className="order-1 py-4 px-6 w-5/12 rounded-lg"></div>
+            <div className="order-1 py-4 px-6 w-5/12 rounded-lg" />
           </div>
           {/* <!-- right timeline --> */}
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-8 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
@@ -315,7 +315,7 @@ export const Timeline = () => {
 
           {/* <!-- left timeline --> */}
           <div className="flex flex-row justify-between items-center mb-8 w-full md:flex-row-reverse">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorder />
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-6 px-2 text-lg font-semibold text-green-100 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
@@ -353,13 +353,13 @@ export const Timeline = () => {
         {/* start of Set1 */}
         <div className="overflow-hidden relative left-0 flex-wrap px-10 h-full">
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             <TimelineVerticalBorderLast />
-            <div className="order-1 py-4 px-6 w-5/12 rounded-lg"></div>
+            <div className="order-1 py-4 px-6 w-5/12 rounded-lg" />
           </div>
           {/* <!-- right timeline --> */}
           <div className="flex justify-between items-center mb-8 w-full">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             {/* <TimelineVerticalBorder /> */}
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-8 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">
@@ -390,7 +390,7 @@ export const Timeline = () => {
 
           {/* <!-- left timeline --> */}
           <div className="flex flex-row justify-between items-center mb-8 w-full md:flex-row-reverse">
-            <div className="order-1 w-5/12"></div>
+            <div className="order-1 w-5/12" />
             {/* <TimelineVerticalBorder /> */}
             <div className="flex relative z-20 order-1">
               <h3 className="absolute -left-6 px-2 text-lg font-semibold text-green-700 whitespace-nowrap bg-gray-900 rounded-full shadow-xl">

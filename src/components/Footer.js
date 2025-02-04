@@ -21,15 +21,14 @@ export const Footer = () => {
 
   return (
     <div
-      id='footer'
-      className='flex justify-center mt-36'
+      id="footer"
+      className="flex justify-center mt-36"
       style={{ backgroundColor: "rgba(12, 12, 58)" }}
     >
-      <div className='p-1'>
+      <div className="p-1">
         <Icons />
         <Copyright />
       </div>
     </div>
   );
-;;
 };

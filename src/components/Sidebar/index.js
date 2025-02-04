@@ -14,57 +14,49 @@ export const Sidebar = () => {
           <ul className="flex flex-col list-none">
             <li className="flex">
               <Link href="/">
-                <a className="flex p-3 text-xs font-bold tracking-widest text-left text-white hover:text-yellow-400">
+                <div className="flex p-3 text-xs font-bold tracking-widest text-left text-white hover:text-yellow-400">
                   <span className="py-3 ml-2 text-yellow-100">ホーム</span>
-                </a>
+                </div>
               </Link>
             </li>
             <li className="flex">
-              {/* <Link href="/websites"> */}
-              <a
-                className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2"
-                target="_blank"
+              <Link
                 href="https://yoko-portfolio.vercel.app/portfolio"
+                target="_blank"
                 rel="noreferrer"
               >
-                <span className="py-3 ml-2 text-yellow-100">
-                  Webサイト（制作実績 外部リンク）
-                </span>
-              </a>
-              {/* </Link> */}
+                <div className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
+                  <span className="py-3 ml-2 text-yellow-100">
+                    Webサイト（制作実績 外部リンク）
+                  </span>
+                </div>
+              </Link>
             </li>
             <li className="flex">
               <Link href="/skills">
-                <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400 lg:py-2">
+                <div className="flex py-3 px-3 text-xs font-bold tracking-widest text-white hover:text-yellow-400 lg:py-2">
                   <span className="py-3 ml-2 text-yellow-100">あゆみ</span>
-                </a>
+                </div>
               </Link>
             </li>
             <li className="flex">
               <Link href="/community">
-                <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
+                <div className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
                   <span className="py-3 ml-2 text-yellow-100">
                     ２つのコミュニティ
                   </span>
-                </a>
+                </div>
               </Link>
             </li>
             <li className="flex">
               <Link href="/yoko_sings">
-                <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
+                <div className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
                   <span className="py-3 ml-2 text-yellow-100">
                     歌とデザイン
                   </span>
-                </a>
+                </div>
               </Link>
             </li>
-            {/* <li className="flex">
-              <Link href="/miscellaneous">
-                <a className="flex py-3 px-3 text-xs font-bold tracking-widest text-gray-700 lg:py-2">
-                  <span className="py-3 ml-2 text-yellow-100">いろいろ</span>
-                </a>
-              </Link>
-            </li> */}
           </ul>
         </div>
       </nav>

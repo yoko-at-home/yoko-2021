@@ -12,7 +12,7 @@ export const Icons = () => {
           type="button"
         >
           {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
-          <i className="fab fa-twitter-square"></i>
+          <i className="fab fa-twitter-square" />
         </button>
       </a>
       <a
@@ -26,7 +26,7 @@ export const Icons = () => {
           type="button"
         >
           {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
-          <i className="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin" />
         </button>
       </a>
       <a
@@ -40,7 +40,7 @@ export const Icons = () => {
           type="button"
         >
           {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github" />
         </button>
       </a>
       <a
@@ -54,7 +54,7 @@ export const Icons = () => {
           type="button"
         >
           {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
-          <i className="fab fa-instagram-square"></i>
+          <i className="fab fa-instagram-square" />
         </button>
       </a>
     </div>
